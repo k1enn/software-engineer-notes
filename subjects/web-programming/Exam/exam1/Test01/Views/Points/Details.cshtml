@@ -1,0 +1,43 @@
+﻿@model Test01.Models.Point
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Point</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Point1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Point1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Course.ClassName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Course.ClassName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Student.StudentName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Student.StudentName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+}
+
+.left {
+    float: left;
+    width: 600px;
+    height: 250px;
+    background-image: url('images/HoaVan03.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container {
+    background-color: white;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.right {
+    float: left;
+    padding: 20px;
+}

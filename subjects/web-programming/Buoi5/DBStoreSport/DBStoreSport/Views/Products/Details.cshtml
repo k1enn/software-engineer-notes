@@ -1,0 +1,24 @@
+﻿@model DBStoreSport.Models.Product
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Chi tiết</h1>
+<hr />
+<div>
+    <span><strong>Tên Sản Phẩm:</strong> @Html.DisplayFor(model => model.NamePro)</span> <br />
+    <span><strong>Mô Tả:</strong> @Html.DisplayFor(model => model.NamePro)</span> <br />
+    <span><strong>Đơn giá:</strong> @Html.DisplayFor(model => model.DecriptionPro)</span> <br />
+    <span><strong>Hình:</strong> @Html.DisplayFor(model => model.ImagePro)</span> <br />
+    <img src="~/Content/Images/@Model.ImagePro" alt="Product Image" style="width: 200px; height: 200px;" /> <br />
+    <span><strong>Loại Sản Phẩm:</strong> @Html.DisplayFor(model => model.Category1.NameCate)</span> <br />
+
+
+</div>
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ProductID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

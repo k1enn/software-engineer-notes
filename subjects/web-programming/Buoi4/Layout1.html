@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VÍ DỤ MỞ ĐẦU MVC</title>
+    <link href="Buoi4/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Trở về trang chủ -->
+    <a style="text-decoration: none; position: fixed; top: 1rem; left: 1rem;" href="https://k1enn.github.io/Web_Programming/main.html" class="btn btn-primary btn-sm">
+        Trở về trang chủ
+    </a>
+    <div class="header" style="background-image: url('Buoi4/Content/images/images02.png');">
+        <br /><br /><br /><br />
+        <div style="width:900px; float:right">
+            <span style="size: 50; color:#00ffff;">
+                <b>Khóa 2022 - K28 </b>
+            </span>
+        </div>
+    </div>
+
+    <div class="topnav">
+        <a href="#" data-page="index.html">Trang chủ</a>
+        <a href="#" data-page="daotao.html">Đào tạo</a>
+        <a href="#" data-page="khoacntt.html">Khoa CNTT</a>
+    </div>
+
+    <div class="main">
+        <div class="left">
+            <div style="text-align:center;"><h3>Các ngành đào tạo</h3></div>
+            <br />
+            <ul>
+                <li><h4><a href="#">Công nghệ thông tin</a></h4></li>
+                <li><h4><a href="#">Ngoại Ngữ</a></h4></li>
+                <li><h4><a href="#">Quản trị kinh doanh</a></h4></li>
+                <li><h4><a href="#">Quan hệ quốc tế</a></h4></li>
+                <li><h4><a href="#">Đông phương</a></h4></li>
+                <li><h4><a href="#">Du lịch - Khách sạn</a></h4></li>
+            </ul>
+            <br /><br /><br /><br /><br />
+        </div>
+
+        <div class="center">
+            <!-- This is where the main content goes -->
+            <!-- Each page will have its own unique content -->
+        </div>
+
+        <div class="right">
+            <div style="text-align:center;">
+                <h2>Tuyển sinh cao học</h2>
+                <img src="Buoi4/Content/images/Tuyensinh1.jpg" alt="Tuyển sinh cao học" />
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h1>Khoa Công nghệ Thông tin, Khóa 2022 (K28)</h1>
+    </div>
+
+    <script>
+        // Tạo cho trang web phản hồi, thay đổi div center khi click vào nav bar
+        document.querySelectorAll('.topnav a').forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault();
+                let page = this.getAttribute('data-page');
+
+                fetch(page)
+                    .then(response => response.text())
+                    .then(html => {
+                        document.querySelector('.center').innerHTML = html;
+                    })
+                    .catch(error => {
+                        console.error('Error fetching the page:', error);
+                    });
+            });
+        });
+
+        // Trang container mặc định khi load
+        window.onload = function() {
+            fetch('index.html')
+                .then(response => response.text())
+                .then(html => {
+                    document.querySelector('.center').innerHTML = html;
+                });
+        };
+    </script>
+    <script src="Scripts/jquery.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    
+</body>
+</html>

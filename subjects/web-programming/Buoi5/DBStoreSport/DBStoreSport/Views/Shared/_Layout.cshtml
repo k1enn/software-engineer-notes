@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Layout Master Page</title>
+    @Styles.Render("~/Content/css")
+    <style>
+        #web {
+            text-align: center;
+            margin-top: 100px;
+
+        }
+        a, li {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+    
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">My Website</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"  
+                    data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+            <div class="navbar-brand" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li style="padding-right: 10px">@Html.ActionLink("Sản phẩm", "Index", "Products")</li>
+                    <li style="padding-right: 10px">@Html.ActionLink("About", "About", "Home")</li>
+                    <li style="padding-right: 10px">@Html.ActionLink("Contact", "Contact", "Home")</li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div id="web">
+        <h1 class="title">Buổi 5</h1>
+        <p class="subtitle">Lập trình web thực hành</p>
+        <p>Đinh Trung Kiên</p>
+    </div>
+
+
+
+<div class="container body-content">
+    @RenderBody()
+    <hr />
+    <footer>
+        <p>&copy; @DateTime.Now.Year - Khóa 2021 - K27</p>
+    </footer>
+</div>
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
+@RenderSection("scripts", required: false)
+</body>
+</html>

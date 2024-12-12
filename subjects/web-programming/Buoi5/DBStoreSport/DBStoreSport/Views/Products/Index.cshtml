@@ -1,0 +1,39 @@
+﻿@model IEnumerable<DBStoreSport.Models.Product>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>DANH MỤC SẢN PHẨM</h1>
+<p>
+    @Html.ActionLink("Thêm sản phẩm mới", "Create")
+</p>
+<table class="table table-bordered" style="border-width:thick">
+    <tr>
+        <th> Tên Sản phẩm </th>
+        <th> Mô tả </th>
+        <th> Đơn giá </th>
+        <th> Hình </th>
+        <th> Loại Sản phẩm </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td> @Html.DisplayFor(modelItem => item.NamePro) </td>
+            <td> @Html.DisplayFor(modelItem => item.DecriptionPro) </td>
+            <td> @Html.DisplayFor(modelItem => item.Price) </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImagePro)
+                <br />
+                <img src="~/Content/images/@item.ImagePro" width="60" />
+            </td>
+            <td> @Html.DisplayFor(modelItem => item.Category1.NameCate) </td>
+            <td>
+                @Html.ActionLink("Sửa", "Edit", new { id = item.ProductID }) |
+                @Html.ActionLink("Chi tiết", "Details", new { id = item.ProductID }) |
+                @Html.ActionLink("Xóa", "Delete", new { id = item.ProductID })
+            </td>
+        </tr>
+    }
+</table>

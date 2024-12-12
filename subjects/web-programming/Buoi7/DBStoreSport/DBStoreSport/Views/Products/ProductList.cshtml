@@ -1,0 +1,102 @@
+﻿<!-- Thêm thư viện & thay đổi mô hình để sử dụng thư viện phân trang -->
+@using PagedList.Mvc;
+@model PagedList.IPagedList<DBStoreSport.Models.Product>
+
+@{
+    ViewBag.Title = "Muahang";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    body {
+        background-color: #2E3440;
+        color: #D8DEE9;
+    }
+    .container {
+        background-color: #3B4252;
+        padding: 20px;
+        border-radius: 5px;
+    }
+    h2 {
+        color: #88C0D0;
+    }
+    .search-box {
+        background-color: #4C566A;
+        border: 2px solid #5E81AC;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    .btn-warning {
+        background-color: #EBCB8B;
+        border-color: #EBCB8B;
+        color: #2E3440;
+    }
+    .btn-danger {
+        background-color: #BF616A;
+        border-color: #BF616A;
+    }
+    .btn-info {
+        background-color: #88C0D0;
+        border-color: #88C0D0;
+        color: #2E3440;
+    }
+    .card-pro {
+        background-color: #434C5E;
+        padding: 15px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+    .pagination > li > a {
+        background-color: #4C566A;
+        color: #E5E9F0;
+    }
+    .pagination > .active > a {
+        background-color: #5E81AC;
+        border-color: #5E81AC;
+    }
+</style>
+
+<div class="container">
+    <h2>MUA HÀNG</h2>
+    <div class="search-box">
+        @using (Html.BeginForm("ProductList", "Products", FormMethod.Get))
+        {
+            <div class="row">
+                <div class="col-md-6">
+                    Tên Sản phẩm : @Html.TextBox("SearchString", null, new { @class = "form-control" })
+                </div>
+                <div class="col-md-3">
+                    <input type="submit" value="Tìm kiếm" class="btn btn-warning" />
+                </div>
+                <div class="col-md-3 text-right">
+                    <a class="btn btn-danger" href="/giohang/index" style="font-weight:200;"> <span class="glyphicon glyphicon-shopping-cart"></span> Your Cart </a>
+                </div>
+            </div>
+        }
+    </div>
+
+
+    <div class="row">
+        @foreach (var pro in Model)
+        {
+            <div class="col-sm-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card-pro">
+                    <p>@Html.DisplayFor(model => pro.ProductID)</p>
+                    <img src="~/Content/images/@pro.ImagePro" width="200" height="250" />
+                    <p>@Html.DisplayFor(model => pro.NamePro)</p>
+                    <p>Đơn giá : <font color="red">@Html.DisplayFor(model => pro.Price)</font></p>
+                    <p style="text-align: center;">
+                        <a class="btn btn-info" href="/Products/Details/@pro.ProductID"> Chi tiết </a>
+                        <a href="/ShoppingCart/AddToCart/@pro.ProductID" class="btn btn-danger"> Mua </a>
+                    </p>
+                </div>
+            </div>
+        }
+    </div>
+
+</div>
+<!-- Thêm đoạn mã để hiển thị số trang và số trang hiện tại -->
+Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+<!--Control PagedListPager: mô tả mô hình với số trang là liên kết với tham số "Index" và tham số page-->
+@Html.PagedListPager(Model, page => Url.Action("ProductList", new { page }))
+<!-- Kết thúc -->

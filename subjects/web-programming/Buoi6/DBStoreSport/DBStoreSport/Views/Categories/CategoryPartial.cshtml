@@ -1,0 +1,54 @@
+﻿@model IEnumerable<DBStoreSport.Models.Category>
+
+<style>
+    body {
+        background-color: #2E3440; /* Nord theme background */
+        color: #D8DEE9; /* Nord theme text color */
+    }
+
+    #div-u {
+        padding-top: 30px;
+        margin-top: 20px;
+        background-color: #3B4252; /* Nord theme darker shade */
+        border-radius: 8px;
+    }
+
+    .div-cate {
+        height: 30px;
+        width: 100%;
+        padding: 5px 0;
+    }
+
+    .div-cate a {
+        color: #88C0D0; /* Nord theme blue */
+        text-decoration: none;
+        font-size: large;
+        transition: color 0.3s ease;
+    }
+
+    .div-cate a:hover {
+        color: #A3BE8C; /* Nord theme green */
+    }
+
+    h3 {
+        color: #BF616A; /* Nord theme red */
+        text-align: center;
+    }
+
+    hr {
+        border-color: #4C566A; /* Nord theme separator color */
+    }
+</style>
+<br />
+<h3 style="color:darkred; text-align:center;">Danh mục Loại SP</h3>
+<ul style="list-style-type: none;" id="div-u">
+    @{
+        foreach (var item in Model)
+        {
+            <li class="div-cate">
+                @Html.ActionLink(item.NameCate, "ProductList", "Products", new { category = item.IDCate }, "")
+            </li>
+            <hr />
+        }
+    }
+</ul>

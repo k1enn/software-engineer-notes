@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Header styling */
+.header {
+    background-color: #f1f1f1;
+    color: #58257b;
+    padding: 10px;
+    text-align: center;
+    min-height: 150px;
+}
+
+/* Navigation bar */
+.topnav {
+    overflow: hidden;
+    width: 100%;
+    background-color: #000000;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #db7093;
+    color: white;
+    font-weight: bold;
+}
+
+/* Main section layout */
+.main, .left, .center, .right {
+    float: left;
+    min-height: 500px;
+    width: 100%;
+}
+
+.left {
+    width: 20%;
+    background-color: #f1f1f1;
+}
+
+.center {
+    width: 60%;
+    background-color: white;
+    padding: 10px;
+}
+
+.right {
+    width: 20%;
+    background-color: #f1f1f1;
+}
+
+/* Left menu styling */
+.left ul {
+    background: #aaa8a8;
+    padding: 0;
+    list-style-type: none;
+}
+
+.left li {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 1em;
+}
+
+.left li a {
+    text-decoration: none;
+    color: #fbf246;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #000000;
+    color: #ffd800;
+    padding: 5px;
+    text-align: center;
+    height: 100px;
+    clear: left;
+}

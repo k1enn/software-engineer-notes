@@ -1,0 +1,32 @@
+.error-message {
+    font-style: italic;
+    padding-left: 10rem;
+}
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+  
+  .container {
+    border: 3px double #000; 
+    padding: 20px;
+  }
+
+  .form-container .mb-3.row{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-bottom: 7px;
+}
+
+.form-container input {
+    border: 1px solid black;
+}
+
+
+.form-container .form-check-input {
+    border: 1px solid black;;
+}
+
+#strength {
+    background: 0;
+    border: 0;
+    font-style: italic;
+}

@@ -1,0 +1,35 @@
+﻿@model IEnumerable<DBStoreSport.Models.OrderPro>
+
+@{
+    ViewBag.Title = "DANH SÁCH CÁC ĐƠN HÀNG";
+}
+
+<h2>DANH SÁCH CÁC ĐƠN HÀNG</h2>
+
+<a href="@Url.Action("Create")" class="btn btn-link">Tạo Đơn Hàng Mới</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Ngày Giao Hàng</th>
+            <th>Địa chỉ Giao hàng</th>
+            <th>Khách hàng</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.DateOrder?.ToString("dd/MM/yyyy hh:mm:ss tt")</td>
+                <td>@item.AddressDeliverry</td>
+                <td>@item.Customer?.NameCus</td>
+                <td>
+                    <a href="@Url.Action("Edit", new { id = item.ID })">Cập Nhật</a> |
+                    <a href="@Url.Action("Details", new { id = item.ID })">Chi Tiết</a> |
+                    <a href="@Url.Action("Delete", new { id = item.ID })">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

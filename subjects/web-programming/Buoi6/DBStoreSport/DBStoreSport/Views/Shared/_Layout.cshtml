@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Layout Master Page</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <!--Nav Bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="@Url.Action("Index", "Home")">DBStoreSport</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div  class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">@Html.ActionLink("Sản phẩm", "Index", "Products", null, new { @class = "nav-link no-decoration" })</li>
+                    <li class="nav-item">@Html.ActionLink("Loại SP", "Index", "Categories", null, new { @class = "nav-link no-decoration" })</li>
+                    <li class="nav-item">@Html.ActionLink("Khách hàng", "Index", "Customers", null, new { @class = "nav-link no-decoration" })</li>
+                    <li class="nav-item">@Html.ActionLink("Đơn hàng", "Index", "OrderProes", null, new { @class = "nav-link no-decoration" })</li>
+                </ul>       
+            </div>
+        </div>
+    </nav>
+    <!--Main Content-->
+    <div class="container-fluid body-content">
+        <div class="row">
+            <div class="col-md-2" style="background-color:#88C0D0;border-radius: 10px; min-height: 600px;">
+                @{ Html.RenderAction("CategoryPartial", "Categories");}
+            </div>
+            <div style="color: #D8DEE9" class="col-md-10" id="div-content">
+                @RenderBody()
+            </div>
+        </div>
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+    </div>
+    <div style="background-color:#212529; height: 50px; text-align: center; padding: 10px;">
+        <h4 style="color:#A3BE8C;"><b>&copy; @DateTime.Now.Year - Đề tài môn học LẬP TRÌNH WEB</b></h4>
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿@model IEnumerable<DBStoreSport.Models.Customer>
+
+@{
+    ViewBag.Title = "KHÁCH HÀNG";
+}
+
+<h2>KHÁCH HÀNG</h2>
+
+<a href="@Url.Action("Create")" class="btn btn-link">Thêm Khách hàng mới</a>
+
+<table class="table table-bordered">
+    <thead class="thead-light">
+        <tr>
+            <th>Tên Khách hàng</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.NameCus</td>
+                <td>@item.PhoneCus</td>
+                <td>@item.EmailCus</td>
+                <td>
+                    <a href="@Url.Action("Edit", new { id = item.IDCus })">Sửa</a> |
+                    <a href="@Url.Action("Details", new { id = item.IDCus })">Chi tiết</a> |
+                    <a href="@Url.Action("Delete", new { id = item.IDCus })">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

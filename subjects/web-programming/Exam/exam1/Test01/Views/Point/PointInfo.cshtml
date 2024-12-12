@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Point Info";
+    var course = ViewBag.Course;
+    var students = ViewBag.Students as List<Test01.Models.Student>;
+    var points = ViewBag.Points as List<Test01.Models.Point>;
+}
+
+<h2>Thông tin điểm - @course.ClassName</h2>
+
+<div class="row">
+    <div class="col-md-6">
+        <h3>Thông tin sinh viên</h3>
+        <ul>
+            @foreach (var student in students)
+            {
+                <li>
+                    <strong>@student.StudentName</strong><br />
+                    Địa chỉ: @student.Address<br />
+                    Email: @student.Email
+                </li>
+            }
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <h3>Điểm</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Tên sinh viên</th>
+                    <th>Điểm</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var point in points)
+                {
+                    var studentName = students.FirstOrDefault(s => s.ID == point.StudentID)?.StudentName;
+                    <tr>
+                        <td>@studentName</td>
+                        <td>@point.Point1</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

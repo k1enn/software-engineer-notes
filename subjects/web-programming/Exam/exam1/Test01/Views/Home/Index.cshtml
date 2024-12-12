@@ -1,0 +1,9 @@
+﻿@model IEnumerable<Test01.Models.Course>
+
+<h2>Courses</h2>
+<ul>
+    @foreach (var course in Model)
+    {
+        <li>@Html.ActionLink(course.ClassName, "PointInfo", "Point", new { courseId = course.ID }, null)</li>
+    }
+</ul>

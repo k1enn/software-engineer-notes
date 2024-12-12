@@ -1,0 +1,114 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+/* Định dạng header */
+.header {
+    background-color: #f1f1f1;
+    color: #58257b;
+    padding: 10px;
+    text-align: center;
+    min-height: 150px;
+}
+/* Định dạng thanh điều hướng trên cùng */
+.topnav {
+    overflow: hidden;
+    width: 100%;
+    background-color: #000000;
+}
+    /* Định dạng link điều hướng */
+    .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+        /* Thay đổi màu liên kết khi di chuột qua */
+        .topnav a:hover {
+            background-color: #db7093;
+            color: white;
+            font-weight: bold
+        }
+/* Tạo phần thân main, trong đó có ba cột left, center, right float cạnh nhau */
+.main, .left, .center, .right {
+    float: left;
+    min-height: 500px;
+    width: 100%;
+}
+    /* Cột bên trái */
+    .left {
+        width: 20%;
+        background-color: thistle;
+        background-color: #f1f1f1;
+    }
+    /* Cột chính giữa */
+    .center {
+        width: 60%;
+        background-color: white;
+        padding: 10px;
+
+    }
+    /* Cột bên phải */
+    .right {
+        width: 20%;
+        background-color: #f1f1f1;
+        background-color: thistle;
+    }
+/* menu left */
+.left ul {
+    background: #aaa8a8;
+    width: 100%;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+}
+
+.left li {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 1em;
+}
+
+    .left li a {
+        text-decoration: none;
+        color: #fbf246;
+        font-weight: bold;
+        display: block;
+    }
+
+    .left li a:hover {
+        background: #f2e2e2;
+        color: #000000;
+    }
+
+    /*
+/* Clear float khác sau các cột 
+.main:after {
+    content: "";
+    display: table;
+    clear: both;
+    max-height: 600px;
+}
+/* Bố cục linh hoạt: ba cột xếp chồng lên nhau thay vì cạnh nhau khi màn hình có chiều rộng dưới 600px 
+@media screen and (max-width: 600px) {
+    .left, .center, .right {
+        width: 100%;
+    }
+}
+    */
+/* Định dạng footer */
+.footer {
+    background-color: #000000;
+    color: #ffd800;
+    padding: 5px;
+    text-align: center;
+    height: 100px;
+    clear: left;
+}

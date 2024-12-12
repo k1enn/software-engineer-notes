@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VÍ DỤ MỞ ĐẦU MVC</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <link href="~/Content/Layout01.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <div class="header" style="background-image: url(../../Content/images/images02.png);">
+        <br /><br /><br /><br />
+        <div style="width:900px; float:right">
+            <font size="50" color=#00ffff>
+                <b>Khóa 2022 - K28 </b>
+            </font>
+        </div>
+    </div>
+
+    <div class="topnav">
+        <a>@Html.ActionLink("Trang chủ", "Index", "Trangchu")</a>
+        <a>@Html.ActionLink("Đào tạo", "Daotao", "Trangchu")</a>
+        <a>@Html.ActionLink("Khoa CNTT", "KhoaCNTT", "Trangchu")</a>
+    </div>
+
+    <div class="main">
+        <div class="left">
+            <div style="text-align:center;"><h3>Các ngành đào tạo</h3></div>
+            <br />
+            <ul>
+                <li><h4><a href="#">Công nghệ thông tin</a></h4></li>
+                <li><h4><a href="#">Ngoại Ngữ</a></h4></li>
+                <li><h4><a href="#">Quản trị kinh doanh</a></h4></li>
+                <li><h4><a href="#">Quan hệ quốc tế</a></h4></li>
+                <li><h4><a href="#">Đông phương</a></h4></li>
+                <li><h4><a href="#">Du lịch - Khách sạn</a></h4></li>
+            </ul>
+            <br /><br /><br /><br /><br />
+        </div>
+
+        <div class="center">
+            @RenderBody()
+        </div>
+
+        <div class="right">
+            <div style="text-align:center; ">
+                <h2>Tuyển sinh cao học</h2>
+                <img src="~/Content/images/Tuyensinh1.jpg" />
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h1>Khoa Công nghệ Thông tin, Khóa 2022 (K28)</h1>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+
+

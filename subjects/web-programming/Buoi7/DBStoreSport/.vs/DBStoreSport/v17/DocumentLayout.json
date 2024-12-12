@@ -1,0 +1,305 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|d:\\laptrinhweb\\thuchanh\\buoi5\\dbstoresport\\dbstoresport\\views\\shoppingcart\\showcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|solutionrelative:dbstoresport\\views\\shoppingcart\\showcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|d:\\laptrinhweb\\thuchanh\\buoi5\\dbstoresport\\dbstoresport\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|solutionrelative:dbstoresport\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\dbstoresport\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|solutionrelative:dbstoresport\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|d:\\laptrinhweb\\thuchanh\\buoi5\\dbstoresport\\dbstoresport\\views\\shoppingcart\\checkout_success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|solutionrelative:dbstoresport\\views\\shoppingcart\\checkout_success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\dbstoresport\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|solutionrelative:dbstoresport\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|d:\\laptrinhweb\\thuchanh\\buoi5\\dbstoresport\\dbstoresport\\views\\shoppingcart\\bagcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|solutionrelative:dbstoresport\\views\\shoppingcart\\bagcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\dbstoresport\\views\\products\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|solutionrelative:dbstoresport\\views\\products\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|d:\\laptrinhweb\\thuchanh\\buoi5\\dbstoresport\\dbstoresport\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|solutionrelative:dbstoresport\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|d:\\laptrinhweb\\thuchanh\\buoi5\\dbstoresport\\dbstoresport\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|solutionrelative:dbstoresport\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\dbstoresport\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|solutionrelative:dbstoresport\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\dbstoresport\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|solutionrelative:dbstoresport\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\dbstoresport\\views\\orderproes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|solutionrelative:dbstoresport\\views\\orderproes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\dbstoresport\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|solutionrelative:dbstoresport\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\dbstoresport\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|solutionrelative:dbstoresport\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\dbstoresport\\views\\categories\\categorypartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|solutionrelative:dbstoresport\\views\\categories\\categorypartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\dbstoresport\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|solutionrelative:dbstoresport\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\dbstoresport\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D490E49-1E43-4BDA-A886-1D7BFEC6406F}|DBStoreSport\\DBStoreSport.csproj|solutionrelative:dbstoresport\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DBStoreSport\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DBStoreSport\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T02:54:39.241Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "DBStoreSport\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "DBStoreSport\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAswDgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T03:16:30.278Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "DBStoreSport\\Views\\Products\\Index.cshtml",
+              "ToolTip": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "DBStoreSport\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T07:06:18.883Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "DBStoreSport\\Models\\Product.cs",
+              "ToolTip": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Models\\Product.cs",
+              "RelativeToolTip": "DBStoreSport\\Models\\Product.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA5wB4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T04:09:59.151Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CheckOut_Success.cshtml",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Views\\ShoppingCart\\CheckOut_Success.cshtml",
+              "RelativeDocumentMoniker": "DBStoreSport\\Views\\ShoppingCart\\CheckOut_Success.cshtml",
+              "ToolTip": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Views\\ShoppingCart\\CheckOut_Success.cshtml",
+              "RelativeToolTip": "DBStoreSport\\Views\\ShoppingCart\\CheckOut_Success.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T03:21:48.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BagCart.cshtml",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Views\\ShoppingCart\\BagCart.cshtml",
+              "RelativeDocumentMoniker": "DBStoreSport\\Views\\ShoppingCart\\BagCart.cshtml",
+              "ToolTip": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Views\\ShoppingCart\\BagCart.cshtml",
+              "RelativeToolTip": "DBStoreSport\\Views\\ShoppingCart\\BagCart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T03:19:59.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShowCart.cshtml",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Views\\ShoppingCart\\ShowCart.cshtml",
+              "RelativeDocumentMoniker": "DBStoreSport\\Views\\ShoppingCart\\ShowCart.cshtml",
+              "ToolTip": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Views\\ShoppingCart\\ShowCart.cshtml",
+              "RelativeToolTip": "DBStoreSport\\Views\\ShoppingCart\\ShowCart.cshtml",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAEcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T03:16:55.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShoppingCartController.cs",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Controllers\\ShoppingCartController.cs",
+              "RelativeDocumentMoniker": "DBStoreSport\\Controllers\\ShoppingCartController.cs",
+              "ToolTip": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Controllers\\ShoppingCartController.cs",
+              "RelativeToolTip": "DBStoreSport\\Controllers\\ShoppingCartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T03:13:48.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "DBStoreSport\\Models\\Cart.cs",
+              "ToolTip": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Models\\Cart.cs",
+              "RelativeToolTip": "DBStoreSport\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T03:09:01.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "DBStoreSport\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "DBStoreSport\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwCQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T18:57:30.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Views\\Customers\\Index.cshtml",
+              "RelativeDocumentMoniker": "DBStoreSport\\Views\\Customers\\Index.cshtml",
+              "ToolTip": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Views\\Customers\\Index.cshtml",
+              "RelativeToolTip": "DBStoreSport\\Views\\Customers\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwCMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T18:57:24.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Views\\OrderProes\\Index.cshtml",
+              "RelativeDocumentMoniker": "DBStoreSport\\Views\\OrderProes\\Index.cshtml",
+              "ToolTip": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Views\\OrderProes\\Index.cshtml",
+              "RelativeToolTip": "DBStoreSport\\Views\\OrderProes\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T18:57:16.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductList.cshtml",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Views\\Products\\ProductList.cshtml",
+              "RelativeDocumentMoniker": "DBStoreSport\\Views\\Products\\ProductList.cshtml",
+              "ToolTip": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Views\\Products\\ProductList.cshtml",
+              "RelativeToolTip": "DBStoreSport\\Views\\Products\\ProductList.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAewF0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T08:47:32.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "DBStoreSport\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "DBStoreSport\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAcwIIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T03:30:59.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CategoryPartial.cshtml",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Views\\Categories\\CategoryPartial.cshtml",
+              "RelativeDocumentMoniker": "DBStoreSport\\Views\\Categories\\CategoryPartial.cshtml",
+              "ToolTip": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Views\\Categories\\CategoryPartial.cshtml",
+              "RelativeToolTip": "DBStoreSport\\Views\\Categories\\CategoryPartial.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T03:49:28.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "DBStoreSport\\Models\\Category.cs",
+              "ToolTip": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Models\\Category.cs",
+              "RelativeToolTip": "DBStoreSport\\Models\\Category.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T03:56:01.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Views\\Products\\Delete.cshtml",
+              "RelativeDocumentMoniker": "DBStoreSport\\Views\\Products\\Delete.cshtml",
+              "ToolTip": "D:\\LapTrinhWeb\\ThucHanh\\BUOI5\\DBStoreSport\\DBStoreSport\\Views\\Products\\Delete.cshtml",
+              "RelativeToolTip": "DBStoreSport\\Views\\Products\\Delete.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAABoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T11:51:45.741Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

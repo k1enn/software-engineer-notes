@@ -1,0 +1,17 @@
+.h1.mt-3.text-left {
+    padding-bottom: 10px;
+}
+
+#input-things .row  {
+    border-bottom: 1px solid rgba(0,0,0, 0.15);
+}
+
+.container label {
+    font-weight: 500;
+}
+
+.container .row.mt-2{
+    border-bottom: 1px solid rgba(0,0,0, 0.15);
+    padding-bottom: 10px;
+
+}

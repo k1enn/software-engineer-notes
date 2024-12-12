@@ -1,0 +1,317 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|d:\\laptrinhweb\\web_th\\web_programming\\exam\\exam1\\test01\\controllers\\pointcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|solutionrelative:test01\\controllers\\pointcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\test01\\controllers\\pointscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|solutionrelative:test01\\controllers\\pointscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\test01\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|solutionrelative:test01\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\test01\\views\\point\\pointinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|solutionrelative:test01\\views\\point\\pointinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\test01\\models\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|solutionrelative:test01\\models\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\test01\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|solutionrelative:test01\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\test01\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|solutionrelative:test01\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\test01\\views\\points\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|solutionrelative:test01\\views\\points\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\test01\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|solutionrelative:test01\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\test01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|solutionrelative:test01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\test01\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|solutionrelative:test01\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\test01\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|solutionrelative:test01\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\test01\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|solutionrelative:test01\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\test01\\views\\points\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|solutionrelative:test01\\views\\points\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\test01\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|solutionrelative:test01\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\test01\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|solutionrelative:test01\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\test01\\models\\model.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|solutionrelative:test01\\models\\model.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\test01\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{238558EA-1DE7-4953-83DE-06215A4C5B2C}|Test01\\Test01.csproj|solutionrelative:test01\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Point.cs",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Models\\Point.cs",
+              "RelativeDocumentMoniker": "Test01\\Models\\Point.cs",
+              "ToolTip": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Models\\Point.cs",
+              "RelativeToolTip": "Test01\\Models\\Point.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T16:52:43.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PointInfo.cshtml",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Views\\Point\\PointInfo.cshtml",
+              "RelativeDocumentMoniker": "Test01\\Views\\Point\\PointInfo.cshtml",
+              "ToolTip": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Views\\Point\\PointInfo.cshtml",
+              "RelativeToolTip": "Test01\\Views\\Point\\PointInfo.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T16:49:54.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PointController.cs",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Controllers\\PointController.cs",
+              "RelativeDocumentMoniker": "Test01\\Controllers\\PointController.cs",
+              "ToolTip": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Controllers\\PointController.cs",
+              "RelativeToolTip": "Test01\\Controllers\\PointController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T16:48:50.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Test01\\Models\\Course.cs",
+              "ToolTip": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Models\\Course.cs",
+              "RelativeToolTip": "Test01\\Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T16:44:37.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Views\\Points\\Index.cshtml",
+              "RelativeDocumentMoniker": "Test01\\Views\\Points\\Index.cshtml",
+              "ToolTip": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Views\\Points\\Index.cshtml",
+              "RelativeToolTip": "Test01\\Views\\Points\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T16:38:54.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Views\\Students\\Index.cshtml",
+              "RelativeDocumentMoniker": "Test01\\Views\\Students\\Index.cshtml",
+              "ToolTip": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Views\\Students\\Index.cshtml",
+              "RelativeToolTip": "Test01\\Views\\Students\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T16:29:38.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PointsController.cs",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Controllers\\PointsController.cs",
+              "RelativeDocumentMoniker": "Test01\\Controllers\\PointsController.cs",
+              "ToolTip": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Controllers\\PointsController.cs",
+              "RelativeToolTip": "Test01\\Controllers\\PointsController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAqwEMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T16:10:51.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Test01\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Test01\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABAAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T15:48:01.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Test01\\Controllers\\StudentsController.cs",
+              "ToolTip": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Test01\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T16:27:29.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Test01\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Test01\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T15:50:08.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Views\\Students\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Test01\\Views\\Students\\Edit.cshtml",
+              "ToolTip": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Views\\Students\\Edit.cshtml",
+              "RelativeToolTip": "Test01\\Views\\Students\\Edit.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC8AAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T16:31:50.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Views\\Students\\Create.cshtml",
+              "RelativeDocumentMoniker": "Test01\\Views\\Students\\Create.cshtml",
+              "ToolTip": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Views\\Students\\Create.cshtml",
+              "RelativeToolTip": "Test01\\Views\\Students\\Create.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T16:24:10.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Views\\Points\\Create.cshtml",
+              "RelativeDocumentMoniker": "Test01\\Views\\Points\\Create.cshtml",
+              "ToolTip": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Views\\Points\\Create.cshtml",
+              "RelativeToolTip": "Test01\\Views\\Points\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T16:27:33.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Test01\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Test01\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:50:53.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Test01\\Models\\Student.cs",
+              "ToolTip": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Models\\Student.cs",
+              "RelativeToolTip": "Test01\\Models\\Student.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T16:15:33.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "Test01\\Controllers\\CoursesController.cs",
+              "ToolTip": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "Test01\\Controllers\\CoursesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T16:10:37.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Model.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Models\\Model.edmx",
+              "RelativeDocumentMoniker": "Test01\\Models\\Model.edmx",
+              "ToolTip": "D:\\LapTrinhWeb\\Test01\\Test01\\Models\\Model.edmx [Diagram1]",
+              "RelativeToolTip": "..\\..\\..\\..\\Test01\\Test01\\Models\\Model.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-03T16:06:40.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Web.config",
+              "RelativeDocumentMoniker": "Test01\\Web.config",
+              "ToolTip": "D:\\LapTrinhWeb\\Web_TH\\Web_Programming\\Exam\\exam1\\Test01\\Web.config",
+              "RelativeToolTip": "Test01\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwv0sAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-03T16:00:54.3Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

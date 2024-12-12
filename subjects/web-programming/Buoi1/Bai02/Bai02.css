@@ -1,0 +1,49 @@
+﻿/* General styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Background styling */
+.background {
+    background-image: url('images/HoaVan01.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Content block styling */
+.content {
+    background-color: rgba(255, 255, 255, 0.8); /* White background with 0.8 opacity */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Heading styles */
+h1, h2, h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Button styling inside a paragraph */
+.btn a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #e83e8c;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+    .btn a:hover {
+        background-color: #d8347a;
+    }

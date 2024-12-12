@@ -1,0 +1,34 @@
+﻿@model IEnumerable<DBStoreSport.Models.Category>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>LOẠI SẢN PHẨM</h2>
+
+<a href="@Url.Action("Create")" class="btn btn-link">Thêm Loại Sản phẩm mới</a>
+
+<table class="table table-bordered">
+    <thead class="thead-light">
+        <tr>
+            <th>Mã Loại</th>
+            <th>Tên Loại</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.IDCate</td>
+                <td>@item.NameCate</td>
+                <td>
+                    <a href="@Url.Action("Edit", new { id = item.IDCate })">Sửa</a> |
+                    <a href="@Url.Action("Details", new { id = item.IDCate })">Chi tiết</a> |
+                    <a href="@Url.Action("Delete", new { id = item.IDCate })">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

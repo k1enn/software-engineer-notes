@@ -1,0 +1,69 @@
+﻿@model DBStoreSport.Models.Product
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>XÓA SẢN PHẨM</h1>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        <h4>Bạn có chắc chắn muốn xóa sản phẩm này?</h4>
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                <b>Tên Sản Phẩm</b>
+            </div>
+            <div class="col-md-10">
+                @Html.DisplayFor(model => model.NamePro)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                <b>Mô tả</b>
+            </div>
+            <div class="col-md-10">
+                @Html.DisplayFor(model => model.DecriptionPro)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                <b>Loại Sản Phẩm</b>
+            </div>
+            <div class="col-md-10">
+                @Html.DisplayFor(model => model.Category1.NameCate)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                <b>Đơn giá</b>
+            </div>
+            <div class="col-md-10">
+                @Html.DisplayFor(model => model.Price)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                <b>Hình</b>
+            </div>
+            <div class="col-md-10">
+                <img src="~/Content/images/@Model.ImagePro" width="200" height="200" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Xóa" class="btn btn-danger" />
+                @Html.ActionLink("Quay lại danh sách", "Index", null, new { @class = "btn btn-default" })
+            </div>
+        </div>
+    </div>
+}

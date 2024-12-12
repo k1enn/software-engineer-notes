@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .container-fluid {
+            padding: 10px;
+        }
+        #col1 {
+            background-color: #000084;
+            font-style: italic;
+            font-weight: 600;
+            color: white;
+        }
+
+        td:not([id]):not([class]) {
+            background-color: #008284 ; 
+            color: white;
+        }
+
+        .table-dark {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <!-- Trở về trang chủ -->
+    <a style="text-decoration: none; position: fixed; top: 1rem; left: 1rem;" href="https://k1enn.github.io/Web_Programming/main.html" class="btn btn-primary btn-sm">
+        Trở về trang chủ
+    </a>
+    <div class="container-fluid">
+        <table class="table table-responsive table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>Họ và tên</th>
+                    <th>Địa chỉ</th>
+                    <th>Email</th>
+                    <th>Số điện thoại</th>
+                </tr>
+            </thead>
+            <tr>
+                <td id="col1">Nguyễn Văn A</td>
+                <td>123 Lê Lợi, Hà Nội</td>
+                <td>nva@example.com</td>
+                <td>0123456789</td>
+            </tr>
+            <tr>
+                <td  id="col1">Trần Thị B</td>
+                <td>456 Trần Hưng Đạo, TP.HCM</td>
+                <td>ttb@example.com</td>
+                <td>0987654321</td>
+            </tr>
+            <tr>
+                <td id="col1">Lê Văn C</td>
+                <td>789 Phan Bội Châu, Đà Nẵng</td>
+                <td>lvc@example.com</td>
+                <td>0912345678</td>
+            </tr>
+            <tr>
+                <td id="col1">Phạm Thị D</td>
+                <td>321 Nguyễn Huệ, Huế</td>
+                <td>ptd@example.com</td>
+                <td>0909876543</td>
+            </tr>
+        </table>        
+    </div>
+</body>
+</html>

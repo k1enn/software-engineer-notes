@@ -1,0 +1,68 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #000;
+    width: 500px;
+}
+
+.logo {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.highlight-cntt {
+    color: #00b0f0;
+}
+
+.highlight-huflit {
+    color: #00b0f0;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.gioi-thieu {
+    background-color: #3b78e7;
+    color: white;
+    margin-right: 10px;
+}
+
+.tuyen-sinh {
+    background-color: #f8d7da;
+    color: #721c24;
+}
