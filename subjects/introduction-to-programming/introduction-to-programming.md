@@ -1,11 +1,10 @@
 <h1 align="center">
   Nhập môn Lập trình
 </h1>
+
 <div align="center">
-  <h3>Follow me: </h3>
+  <p><strong>Follow me:</strong></p>
 </div>
-
-
 
 <div align="center">
   <p>

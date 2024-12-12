@@ -3,14 +3,21 @@
 	<h1>Buổi 3</h1>
 <h2>Chủ đề: Giải thuật tìm kiếm và sắp xếp trên mảng 1 chiều</h2>
 </div>
-<div align="center"><p><strong>Follow me:</strong></p></div>
+
+<div align="center">
+  <p><strong>Follow me:</strong></p>
+</div>
 
 <div align="center">
   <p>
-    <strong><a href="https://github.com/k1enn" target="_blank">GitHub</a></strong>
-    <strong><a href="https://codeforces.com/profile/dinhtrungkien" target="_blank">Codeforces</a></strong>
-    <strong><a href="https://www.linkedin.com/in/ki%C3%AAn-trung-1645b532a/" target="_blank">LinkedIn</a></strong>
+    <img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/web-programming/Buoi1/Bai01/images/github.png" alt="GitHub Logo" width="20" height="20" />
+    <strong><a style="text-decoration:none;" href="https://github.com/k1enn" target="_blank">GitHub</a></strong>
+    <img style="padding-left: 10px; " src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/web-programming/Buoi1/Bai01/images/codeforces.png" alt="Codeforces Logo" width="20" height="20" />
+    <strong><a style="text-decoration:none;" href="https://codeforces.com/profile/dinhtrungkien" target="_blank">Codeforces</a></strong>
+    <img style="padding-left: 10px;" src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/web-programming/Buoi1/Bai01/images/linkedin.png" alt="LinkedIn Logo" width="20" height="20" />
+    <strong><a style="text-decoration:none;" href="https://www.linkedin.com/in/k1enn/" target="_blank">LinkedIn</a></strong>
   </p>
+      <small> November, 2024</small>
 </div>
 
 [Buổi 2](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi2/buoi2.md) | [Buổi 4](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi4/buoi4.md)

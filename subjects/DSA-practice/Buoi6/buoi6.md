@@ -8,13 +8,17 @@
 
 <div align="center">
   <p>
-    <strong><a href="https://github.com/k1enn" target="_blank">GitHub</a></strong>
-    <strong><a href="https://codeforces.com/profile/dinhtrungkien" target="_blank">Codeforces</a></strong>
-    <strong><a href="https://www.linkedin.com/in/ki%C3%AAn-trung-1645b532a/" target="_blank">LinkedIn</a></strong>
+    <img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/web-programming/Buoi1/Bai01/images/github.png" alt="GitHub Logo" width="20" height="20" />
+    <strong><a style="text-decoration:none;" href="https://github.com/k1enn" target="_blank">GitHub</a></strong>
+    <img style="padding-left: 10px; " src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/web-programming/Buoi1/Bai01/images/codeforces.png" alt="Codeforces Logo" width="20" height="20" />
+    <strong><a style="text-decoration:none;" href="https://codeforces.com/profile/dinhtrungkien" target="_blank">Codeforces</a></strong>
+    <img style="padding-left: 10px;" src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/web-programming/Buoi1/Bai01/images/linkedin.png" alt="LinkedIn Logo" width="20" height="20" />
+    <strong><a style="text-decoration:none;" href="https://www.linkedin.com/in/k1enn/" target="_blank">LinkedIn</a></strong>
   </p>
+      <small> November, 2024</small>
 </div>
 
-[Buổi 7](https://github.com/k1enn/DSA/blob/main/Buoi7/buoi7.md) | [Buổi 5](https://github.com/k1enn/DSA/blob/main/Buoi5/buoi5.md)
+[Buổi 7](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi7/buoi7.md) | [Buổi 5](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi5/buoi5.md)
 ## Nội dung 
 Giả sử cần viết chương trình quản lý sinh viên của một trường đại học. Thông tin sinh viên gồm: Mã số (số nguyên), Họ và tên, năm sinh, giới tính, tên chuyên ngành và tên khoa. Hãy viết chương trình theo phương pháp OOP trên ngôn ngữ C# với các yêu cầu sau: 
 ### A.	Yêu cầu về cấu trúc dữ liệu:

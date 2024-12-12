@@ -16,7 +16,13 @@
       <small> November, 2024</small>
 </div>
 
-## Lesson
+## Tài liệu tham khảo
+- [GeeksforGeeks](https://www.geeksforgeeks.org)
+- [W3School](https://www.w3schools.com/dsa/index.php)
+- [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+- [Algorithm Visualizer](https://algorithm-visualizer.org/)
+
+## Các buổi học
 
 <div align="left"><table style="width:100%; border-collapse: collapse; border: 1px solid black;">
     <thead>

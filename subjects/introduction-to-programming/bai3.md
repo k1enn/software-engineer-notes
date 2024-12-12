@@ -1,6 +1,10 @@
 # 3. Cấu trúc lựa chọn
 
 <div align="center">
+  <p><strong>Follow me:</strong></p>
+</div>
+
+<div align="center">
   <p>
     <img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/web-programming/Buoi1/Bai01/images/github.png" alt="GitHub Logo" width="20" height="20" />
     <strong><a style="text-decoration:none;" href="https://github.com/k1enn" target="_blank">GitHub</a></strong>

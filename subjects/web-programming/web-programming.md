@@ -1,44 +1,47 @@
 <h1 align="center">Web Programming</h1>
+
 <div align="center">
-  <h3>Follow me: </h3>
+  <p><strong>Follow me:</strong></p>
 </div>
 
 <div align="center">
   <p>
-    <img src="https://github.com/k1enn/Web_Programming/blob/main/Buoi1/Bai01/images/github.png" alt="GitHub Logo" width="20" height="20" />
+    <img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/web-programming/Buoi1/Bai01/images/github.png" alt="GitHub Logo" width="20" height="20" />
     <strong><a style="text-decoration:none;" href="https://github.com/k1enn" target="_blank">GitHub</a></strong>
-    <img style="padding-left: 10px; " src="https://github.com/k1enn/Web_Programming/blob/main/Buoi1/Bai01/images/codeforces.png" alt="Codeforces Logo" width="20" height="20" />
+    <img style="padding-left: 10px; " src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/web-programming/Buoi1/Bai01/images/codeforces.png" alt="Codeforces Logo" width="20" height="20" />
     <strong><a style="text-decoration:none;" href="https://codeforces.com/profile/dinhtrungkien" target="_blank">Codeforces</a></strong>
-    <img style="padding-left: 10px;" src="https://github.com/k1enn/Web_Programming/blob/main/Buoi1/Bai01/images/linkedin.png" alt="LinkedIn Logo" width="20" height="20" />
+    <img style="padding-left: 10px;" src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/web-programming/Buoi1/Bai01/images/linkedin.png" alt="LinkedIn Logo" width="20" height="20" />
     <strong><a style="text-decoration:none;" href="https://www.linkedin.com/in/k1enn/" target="_blank">LinkedIn</a></strong>
   </p>
+      <small> December, 2024</small>
 </div>
 
 ## Mô tả
 Dự án này lưu lại lời giải tự làm cho môn Lập trình Web thực hành, bao gồm các bài tập và giải pháp cho từng buổi học. Mục tiêu của dự án là giúp người học nắm bắt kiến thức về lập trình web thông qua các bài thực hành chi tiết và cụ thể.
 
 ## Nội dung các buổi học:
-- [Buổi 1](https://github.com/k1enn/Web_Programming/tree/main/Buoi1) - **Giới thiệu cơ bản về HTML**
+- [Buổi 1](https://github.com/k1enn/software-engineer-notes/tree/main/subjects/web-programming/Buoi1) - **Giới thiệu cơ bản về HTML**
   - Tổng quan về HTML, các thẻ cơ bản.
   - Cách tạo cấu trúc trang web đơn giản.
 
-- [Buổi 2](https://github.com/k1enn/Web_Programming/tree/main/Buoi2) - **CSS cơ bản**
+- [Buổi 2](https://github.com/k1enn/software-engineer-notes/tree/main/subjects/web-programming/Buoi2) - **CSS cơ bản**
   - Định dạng trang web bằng CSS.
   - Các cách áp dụng CSS: inline, internal, external.
 
-- [Buổi 3](https://github.com/k1enn/Web_Programming/tree/main/Buoi3) - **JavaScript cơ bản**
+- [Buổi 3](https://github.com/k1enn/software-engineer-notes/tree/main/subjects/web-programming/Buoi3) - **JavaScript cơ bản**
   - Khái niệm về JavaScript và cách sử dụng.
   - Tương tác với các phần tử HTML bằng JavaScript.
 
-- [Buổi 4](https://github.com/k1enn/Web_Programming/tree/main/Buoi4) - **ASP.NET MVC cơ bản**
+- [Buổi 4](https://github.com/k1enn/software-engineer-notes/tree/main/subjects/web-programming/Buoi4) - **ASP.NET MVC cơ bản**
   - Cấu trúc của một ứng dụng ASP.NET MVC.
   - Cách sử dụng Razor để kết hợp giữa HTML và C#.
-- [Buổi 5](https://github.com/k1enn/Web_Programming/tree/main/Buoi5/DBStoreSport) - **ASP.NET MVC**
-- [Buổi 6](https://github.com/k1enn/Web_Programming/tree/main/Buoi6) - **ASP.NET MVC**
+- [Buổi 5](https://github.com/k1enn/software-engineer-notes/tree/main/subjects/web-programming/Buoi5/DBStoreSport) - **ASP.NET MVC**
+- [Buổi 6](https://github.com/k1enn/software-engineer-notes/tree/main/subjects/web-programming/Buoi6) - **ASP.NET MVC**
   - Sửa lại lỗi của buổi trước
   - Chỉnh sửa giao diện
-- [Buổi 7](https://github.com/k1enn/Web_Programming/tree/main/Buoi7/DBStoreSport)
+- [Buổi 7](https://github.com/k1enn/software-engineer-notes/tree/main/subjects/web-programming/Buoi7/DBStoreSport)
   - Thêm chức năng giỏ hàng
+- Các buổi khác lười quá nên không hoàn thành 100%
 ## Kết quả
 Xem kết quả thực hành của các buổi học thông qua trang web được triển khai tại đây: [Coi kết quả](https://shorturl.at/uE37V)
 
