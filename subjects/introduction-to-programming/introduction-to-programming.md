@@ -44,6 +44,10 @@
             <td style="border: 1px solid black; padding: 8px;">4</td>
             <td style="border: 1px solid black; padding: 8px;"><a href="https://k1enn.github.io/Nhap-mon-lap-trinh/Buoi4/bai4" style="text-decoration: none;">Cấu trúc Lặp</a></td>        
         </tr>
+      <tr>
+            <td style="border: 1px solid black; padding: 8px;">5</td>
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://k1enn.github.io/Nhap-mon-lap-trinh/Buoi4/bai4" style="text-decoration: none;">Hàm</a></td>        
+        </tr>
     </tbody>
 </table>
 </div>
