@@ -4,18 +4,16 @@
 <h2>Chủ đề: Giải thuật tìm kiếm và sắp xếp trên mảng 1 chiều</h2>
 </div>
 <div align="center"><p><strong>Follow me:</strong></p></div>
+
 <div align="center">
-    <p>
-        <img style="padding-left: 10px;" src="https://github.com/k1enn/Web_Programming/blob/main/Buoi1/Bai01/images/github.png" alt="Logo" width="20" height="20">
-        <strong><a href="https://github.com/k1enn" target="_blank">GitHub</a></strong> 
-	<img style="padding-left: 10px;" src="https://github.com/k1enn/Web_Programming/blob/main/Buoi1/Bai01/images/codeforces.png" alt="Logo" width="20" height="20">
-        <strong><a href="https://codeforces.com/profile/dinhtrungkien" target="_blank">CodeForces</a></strong>
-	    <img style="padding-left: 10px;" src="https://github.com/k1enn/Web_Programming/blob/main/Buoi1/Bai01/images/linkedin.png" alt="Logo" width="20" height="20">
-        <strong><a href="https://www.linkedin.com/in/ki%C3%AAn-trung-1645b532a/" target="_blank">LinkedIn</a></strong>
-    </p>
+  <p>
+    <strong><a href="https://github.com/k1enn" target="_blank">GitHub</a></strong>
+    <strong><a href="https://codeforces.com/profile/dinhtrungkien" target="_blank">Codeforces</a></strong>
+    <strong><a href="https://www.linkedin.com/in/ki%C3%AAn-trung-1645b532a/" target="_blank">LinkedIn</a></strong>
+  </p>
 </div>
 
-[Buổi 2](https://github.com/k1enn/DSA/blob/main/Buoi2/buoi2.md) | [Buổi 4](https://github.com/k1enn/DSA/blob/main/Buoi4/buoi4.md)
+[Buổi 2](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi2/buoi2.md) | [Buổi 4](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi4/buoi4.md)
 ## Nội dung
 Dùng cấu trúc dữ liệu mảng 1 chiều, viết chương trình (ngôn ngữ C#) quản lý danh sách các quyển sách với các chức năng sau:
 1.	Các properties get/set và constructors cần thiết

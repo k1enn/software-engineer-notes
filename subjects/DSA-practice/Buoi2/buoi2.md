@@ -8,16 +8,13 @@
 
 <div align="center">
   <p>
-    <img src="https://github.com/k1enn/Web_Programming/blob/main/Buoi1/Bai01/images/github.png" alt="GitHub Logo" width="20" height="20" />
     <strong><a href="https://github.com/k1enn" target="_blank">GitHub</a></strong>
-    <img style="padding-left: 10px;" src="https://github.com/k1enn/Web_Programming/blob/main/Buoi1/Bai01/images/codeforces.png" alt="Codeforces Logo" width="20" height="20" />
     <strong><a href="https://codeforces.com/profile/dinhtrungkien" target="_blank">Codeforces</a></strong>
-    <img style="padding-left: 10px;" src="https://github.com/k1enn/Web_Programming/blob/main/Buoi1/Bai01/images/linkedin.png" alt="LinkedIn Logo" width="20" height="20" />
-    <strong><a href="https://www.linkedin.com/in/k1enn/" target="_blank">LinkedIn</a></strong>
+    <strong><a href="https://www.linkedin.com/in/ki%C3%AAn-trung-1645b532a/" target="_blank">LinkedIn</a></strong>
   </p>
 </div>
 
-[Buổi 1](https://github.com/k1enn/DSA/blob/main/Buoi1/buoi1.md) | [Buổi 3](https://github.com/k1enn/DSA/blob/main/Buoi3/buoi3.md)
+[Buổi 1](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi1/buoi1.md) | [Buổi 3](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi3/buoi3.md)
 ## Yêu cầu:
 ### Yêu cầu 1: 
 Cho lớp mảng một chiều số nguyên (IntArray). Lớp gồm các chức năng sau:
