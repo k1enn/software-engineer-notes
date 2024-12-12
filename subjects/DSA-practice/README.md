@@ -9,11 +9,8 @@
 
 <div align="center">
   <p>
-    <img src="https://github.com/k1enn/Web_Programming/blob/main/Buoi1/Bai01/images/github.png" alt="GitHub Logo" width="20" height="20" />
     <strong><a style="text-decoration:none;" href="https://github.com/k1enn" target="_blank">GitHub</a></strong>
-    <img style="padding-left: 10px; " src="https://github.com/k1enn/Web_Programming/blob/main/Buoi1/Bai01/images/codeforces.png" alt="Codeforces Logo" width="20" height="20" />
     <strong><a style="text-decoration:none;" href="https://codeforces.com/profile/dinhtrungkien" target="_blank">Codeforces</a></strong>
-    <img style="padding-left: 10px;" src="https://github.com/k1enn/Web_Programming/blob/main/Buoi1/Bai01/images/linkedin.png" alt="LinkedIn Logo" width="20" height="20" />
     <strong><a style="text-decoration:none;" href="https://www.linkedin.com/in/k1enn/" target="_blank">LinkedIn</a></strong>
   </p>
       <small> November, 2024</small>
@@ -32,52 +29,52 @@
     <tbody>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">1</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/DSA/blob/main/Buoi1/buoi1.md" style="text-decoration: none;">Cơ bản về phương pháp lập trình hướng đối tượng</a></td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/DSA/tree/main/Buoi1" style="text-decoration: none;">Đáp án</a></td>
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi1/buoi1.md" style="text-decoration: none;">Cơ bản về phương pháp lập trình hướng đối tượng</a></td>
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi1" style="text-decoration: none;">Đáp án</a></td>
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">2</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/DSA/blob/main/Buoi2/buoi2.md" style="text-decoration: none;">Giải thuật tìm kiếm và sắp xếp trên mảng 1 chiều</a></td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/DSA/tree/main/Buoi2" style="text-decoration: none;">Đáp án</a></td>
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi2/buoi2.md" style="text-decoration: none;">Giải thuật tìm kiếm và sắp xếp trên mảng 1 chiều</a></td>
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi2" style="text-decoration: none;">Đáp án</a></td>
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">3</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/DSA/blob/main/Buoi3/buoi3.md" style="text-decoration: none;">Giải thuật tìm kiếm và sắp xếp trên mảng 1 chiều</a></td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/DSA/tree/main/Buoi3" style="text-decoration: none;">Đáp án</a></td>
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi3/buoi3.md" style="text-decoration: none;">Giải thuật tìm kiếm và sắp xếp trên mảng 1 chiều</a></td>
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi3" style="text-decoration: none;">Đáp án</a></td>
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">4</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/DSA/blob/main/Buoi4/buoi4.md" style="text-decoration: none;">Danh sách liên kết đơn - Phần 1</a></td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/DSA/tree/main/Buoi4" style="text-decoration: none;">Đáp án</a></td>
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi4/buoi4.md" style="text-decoration: none;">Danh sách liên kết đơn - Phần 1</a></td>
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi4" style="text-decoration: none;">Đáp án</a></td>
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">5</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/DSA/blob/main/Buoi5/buoi5.md" style="text-decoration: none;">Danh sách liên kết đơn - Phần 2</a></td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/DSA/tree/main/Buoi5" style="text-decoration: none;">Đáp án</a></td>
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi5/buoi5.md" style="text-decoration: none;">Danh sách liên kết đơn - Phần 2</a></td>
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi5" style="text-decoration: none;">Đáp án</a></td>
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">6</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/DSA/blob/main/Buoi6/buoi6.md" style="text-decoration: none;">Danh sách liên kết đơn</a></td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/DSA/tree/main/Buoi6" style="text-decoration: none;">Đáp án</a></td>
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi6/buoi6.md" style="text-decoration: none;">Danh sách liên kết đơn</a></td>
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi6" style="text-decoration: none;">Đáp án</a></td>
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">7</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/DSA/blob/main/Buoi7/buoi7.md" style="text-decoration: none;">Stack và Queue</a></td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/DSA/tree/main/Buoi7" style="text-decoration: none;">Đáp án</a></td>
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi7/buoi7.md" style="text-decoration: none;">Stack và Queue</a></td>
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi7" style="text-decoration: none;">Đáp án</a></td>
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">8</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/DSA/blob/main/Buoi8/buoi8.md" style="text-decoration: none;">Cây nhị phân tìm kiếm</a></td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/DSA/tree/main/Buoi8" style="text-decoration: none;">Đáp án</a></td>
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practiceBuoi8/buoi8.md" style="text-decoration: none;">Cây nhị phân tìm kiếm</a></td>
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi8" style="text-decoration: none;">Đáp án</a></td>
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">9</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/DSA/blob/main/Buoi9/buoi9.md" style="text-decoration: none;">Cây nhị phân tìm kiếm cân bằng</a></td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/DSA/tree/main/Buoi9" style="text-decoration: none;">Đáp án</a></td>
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi9/buoi9.md" style="text-decoration: none;">Cây nhị phân tìm kiếm cân bằng</a></td>
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi9" style="text-decoration: none;">Đáp án</a></td>
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">10</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/DSA/blob/main/Buoi10/buoi10.md" style="text-decoration: none;">Ôn tập</a></td>
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi10/buoi10.md" style="text-decoration: none;">Ôn tập</a></td>
             <td style="border: 1px solid black; padding: 8px;"></td>
         </tr>
     </tbody>
