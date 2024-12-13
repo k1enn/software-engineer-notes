@@ -36,7 +36,8 @@ Lên trang của [Unicode](https://home.unicode.org) coi thêm.
 
 ## Kiểu ký tự `char`
 ### Cú pháp (Syntax)
-*HÌNH Ở ĐÂY*
+![char syntax](../../images/programming-fundamental-bai8-0.png)
+
 ```csharp
 static void Main(string[] args)
  {
@@ -110,7 +111,7 @@ static char Char.ToLower(char c)
 - `string` là kiểu dữ liệu tham chiếu (reference type)
 
 
-*HINH O DAY*
+![string syntax](../../images/programming-fundamental-bai8-1.png)
 
 ### Cách khởi tạo chuỗi có chứa **ký tự đặc biệt**:
 - Dùng Escape Characters: sử dụng dấu backslash `\`
