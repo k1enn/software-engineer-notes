@@ -197,3 +197,139 @@ Console.WriteLine(str.Substring(1, 5)); // "Hello"
 Console.WriteLine(str.Replace("World", "C#")); // " Hello C# "
 Console.WriteLine(string.IsNullOrEmpty("")); // True
 ```
+
+## String Builder
+
+`StringBuilder` được sử dụng để làm việc với chuỗi một cách hiệu quả, đặc biệt khi chuỗi cần được thay đổi nhiều lần (thêm, xóa, chèn, thay thế). Điều này giúp giảm việc tạo ra các chuỗi mới trong bộ nhớ, vốn xảy ra khi làm việc với kiểu `string` (vì `string` là **immutable** - không thể thay đổi).
+
+---
+
+### **1. Cách khởi tạo StringBuilder**
+
+```csharp
+using System.Text;
+
+StringBuilder sb = new StringBuilder();
+StringBuilder sbWithCapacity = new StringBuilder(50); // Dung lượng khởi tạo là 50 ký tự
+StringBuilder sbWithValue = new StringBuilder("Hello, World!");
+```
+
+---
+
+### **2. Các phương thức thông dụng trong StringBuilder**
+
+| **Phương thức**               | **Mô tả**                                                                                 |
+|-------------------------------|-------------------------------------------------------------------------------------------|
+| `Append(string value)`         | Thêm chuỗi `value` vào cuối `StringBuilder`.                                              |
+| `AppendLine(string value)`     | Thêm chuỗi `value` vào cuối, kèm theo một dòng mới (`\n`).                                |
+| `Insert(int index, string value)` | Chèn chuỗi `value` vào vị trí `index`.                                                  |
+| `Remove(int startIndex, int length)` | Xóa `length` ký tự bắt đầu từ vị trí `startIndex`.                                   |
+| `Replace(string oldValue, string newValue)` | Thay thế tất cả chuỗi `oldValue` bằng `newValue`.                              |
+| `Clear()`                      | Xóa toàn bộ nội dung trong `StringBuilder`.                                              |
+| `ToString()`                   | Chuyển đổi `StringBuilder` thành chuỗi (`string`).                                       |
+| `Length`                       | Lấy hoặc đặt độ dài hiện tại của `StringBuilder`.                                        |
+| `Capacity`                     | Trả về dung lượng hiện tại (tức là số ký tự tối đa có thể chứa mà không cấp phát thêm).   |
+| `EnsureCapacity(int capacity)` | Đảm bảo dung lượng của `StringBuilder` ít nhất bằng `capacity`.                          |
+
+---
+
+### **3. Ví dụ minh họa**
+
+#### **Thêm chuỗi**
+```csharp
+using System;
+using System.Text;
+
+class Program
+{
+    static void Main()
+    {
+        StringBuilder sb = new StringBuilder("Hello");
+        sb.Append(", World!"); // Thêm chuỗi vào cuối
+        Console.WriteLine(sb); // Kết quả: "Hello, World!"
+    }
+}
+```
+
+#### **Chèn chuỗi**
+```csharp
+sb.Insert(5, " Beautiful");
+// Kết quả: "Hello Beautiful, World!"
+```
+
+#### **Xóa chuỗi**
+```csharp
+sb.Remove(5, 10);
+// Kết quả: "Hello, World!"
+```
+
+#### **Thay thế chuỗi**
+```csharp
+sb.Replace("World", "C#");
+// Kết quả: "Hello, C#!"
+```
+
+#### **Xóa toàn bộ nội dung**
+```csharp
+sb.Clear();
+// Kết quả: ""
+```
+
+---
+
+### **4. Khi nào sử dụng StringBuilder thay vì string?**
+
+- **Dùng `StringBuilder`:**
+  - Khi cần thực hiện nhiều thao tác thay đổi nội dung chuỗi, như thêm, xóa, hoặc thay thế.
+  - Ví dụ: Nối hàng trăm hoặc hàng nghìn chuỗi trong vòng lặp.
+
+- **Dùng `string`:**
+  - Khi chuỗi ít thay đổi hoặc chỉ thực hiện các thao tác đọc chuỗi.
+  - Ví dụ: Đọc giá trị cố định hoặc thao tác trên chuỗi nhỏ.
+
+---
+
+### **5. Ưu điểm của StringBuilder**
+- Hiệu suất cao hơn khi làm việc với chuỗi thay đổi nhiều lần.
+- Giảm việc tạo các đối tượng mới trong bộ nhớ, tiết kiệm tài nguyên.
+
+---
+
+### **6. Ví dụ thực tế: Nối chuỗi trong vòng lặp**
+
+#### **Sử dụng StringBuilder**
+```csharp
+using System;
+using System.Text;
+
+class Program
+{
+    static void Main()
+    {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 1; i <= 5; i++)
+        {
+            sb.Append($"Number {i}\n");
+        }
+        Console.WriteLine(sb.ToString());
+    }
+}
+// Kết quả:
+// Number 1
+// Number 2
+// Number 3
+// Number 4
+// Number 5
+```
+
+#### **Sử dụng string (hiệu suất thấp hơn)**
+```csharp
+string result = "";
+for (int i = 1; i <= 5; i++)
+{
+    result += $"Number {i}\n";
+}
+Console.WriteLine(result);
+```
+
+So với `string`, việc sử dụng `StringBuilder` trong vòng lặp giảm số lần cấp phát bộ nhớ, giúp cải thiện hiệu suất đáng kể khi xử lý chuỗi lớn hoặc phức tạp.
