@@ -141,3 +141,59 @@ Nên thường một chương trình, mình sẽ để 2 dòng này ở đầu h
 ### Thao tác trên `string`
 Các thao tác trên chuỗi gần giống như thao tác trên
 mảng một chiều chứa các ký tự nên không cần giải thích nhiều.
+
+## String Methods:
+
+Các phương thức chuỗi thường được sử dụng, các bạn sẽ dùng trong các project của những năm tới.
+
+### 1. **Phương thức thao tác với chuỗi**
+| Phương thức           | Mô tả                                                                                   |
+|-----------------------|-----------------------------------------------------------------------------------------|
+| `Length`             | Trả về độ dài chuỗi.                                                                    |
+| `Substring(int startIndex, int length)` | Trích xuất một phần của chuỗi bắt đầu từ `startIndex` với độ dài `length`.                             |
+| `IndexOf(string value)` | Tìm vị trí đầu tiên của chuỗi con `value` trong chuỗi chính, trả về -1 nếu không tìm thấy.       |
+| `LastIndexOf(string value)` | Tìm vị trí xuất hiện cuối cùng của chuỗi con `value`.                                       |
+| `Replace(string oldValue, string newValue)` | Thay thế tất cả các chuỗi con `oldValue` bằng `newValue`.                               |
+| `ToLower()`          | Chuyển đổi chuỗi thành chữ thường.                                                      |
+| `ToUpper()`          | Chuyển đổi chuỗi thành chữ in hoa.                                                      |
+| `Trim()`             | Loại bỏ khoảng trắng ở đầu và cuối chuỗi.                                               |
+| `TrimStart()`        | Loại bỏ khoảng trắng ở đầu chuỗi.                                                       |
+| `TrimEnd()`          | Loại bỏ khoảng trắng ở cuối chuỗi.                                                      |
+
+### 2. **Phương thức kiểm tra chuỗi**
+| Phương thức                  | Mô tả                                                                                     |
+|-----------------------------|-------------------------------------------------------------------------------------------|
+| `Contains(string value)`    | Kiểm tra xem chuỗi có chứa chuỗi con `value` không. Trả về `true` hoặc `false`.           |
+| `StartsWith(string value)`  | Kiểm tra xem chuỗi có bắt đầu bằng `value` không.                                         |
+| `EndsWith(string value)`    | Kiểm tra xem chuỗi có kết thúc bằng `value` không.                                        |
+| `Equals(string value)`      | So sánh chuỗi hiện tại với chuỗi `value`. Trả về `true` nếu giống nhau.                   |
+| `IsNullOrEmpty(string value)` | Kiểm tra xem chuỗi có phải `null` hoặc rỗng không.                                       |
+| `IsNullOrWhiteSpace(string value)` | Kiểm tra xem chuỗi có phải `null`, rỗng, hoặc chỉ chứa khoảng trắng không.               |
+
+### 3. **Phương thức phân tách và kết hợp chuỗi**
+| Phương thức               | Mô tả                                                                                     |
+|--------------------------|-------------------------------------------------------------------------------------------|
+| `Split(char[] separator)` | Phân tách chuỗi thành mảng các chuỗi nhỏ bằng cách sử dụng các ký tự phân tách.            |
+| `Join(string separator, string[] values)` | Kết hợp các chuỗi trong mảng `values` thành một chuỗi, với `separator` làm ký tự ngăn cách.  |
+
+### 4. **Phương thức khác**
+| Phương thức               | Mô tả                                                                                     |
+|--------------------------|-------------------------------------------------------------------------------------------|
+| `Insert(int startIndex, string value)` | Chèn chuỗi con `value` vào vị trí `startIndex`.                                         |
+| `Remove(int startIndex, int count)`    | Xóa `count` ký tự bắt đầu từ vị trí `startIndex`.                                       |
+| `PadLeft(int totalWidth, char paddingChar)` | Đệm thêm ký tự vào bên trái để đạt độ dài `totalWidth`.                                |
+| `PadRight(int totalWidth, char paddingChar)` | Đệm thêm ký tự vào bên phải để đạt độ dài `totalWidth`.                               |
+| `ToCharArray()`            | Chuyển chuỗi thành mảng các ký tự (`char[]`).                                              |
+| `Format(string format, object[] args)` | Định dạng chuỗi với các tham số, ví dụ: `string.Format("Hello, {0}", "World")`.        |
+
+### Ví dụ minh họa:
+```csharp
+string str = " Hello World ";
+Console.WriteLine(str.Length); // 13
+Console.WriteLine(str.Trim()); // "Hello World"
+Console.WriteLine(str.ToUpper()); // " HELLO WORLD "
+Console.WriteLine(str.Contains("World")); // True
+Console.WriteLine(str.Substring(1, 5)); // "Hello"
+Console.WriteLine(str.Replace("World", "C#")); // " Hello C# "
+Console.WriteLine(string.IsNullOrEmpty("")); // True
+```
