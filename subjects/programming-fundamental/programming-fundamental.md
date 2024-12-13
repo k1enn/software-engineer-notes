@@ -20,6 +20,7 @@
 
 ## Các buổi học
 
+Tài liệu này được biên soạn dựa trên giáo trình và chương trình của Thầy Huỳnh Thành Lộc, với mục đích chia sẻ kiến thức. Nếu bạn phát hiện bất kỳ sai sót nào, dù là về nội dung hay trình bày, rất mong nhận được sự góp ý từ bạn.
 <div align="left"><table style="width:100%; border-collapse: collapse; border: 1px solid black;">
     <thead>
         <tr>
