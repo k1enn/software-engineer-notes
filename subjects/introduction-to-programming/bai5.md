@@ -56,3 +56,12 @@ tham số** trong định nghĩa hàm
 - **Đối số** (argument): giá trị cụ thể của các tham số khi gọi hàm  
 
 Nói chung là truyền đối số **cùng kiểu** với tham số
+
+## Các dạng tham số của hàm
+Có 2 dạng:
+- **Truyền tham trị** (passing by value): truyền giá trị của đối số   
+-> tham số là một **bản sao** của đối số nên mọi thay đổi trên tham số **không thay đổi** đến đối số (tham số là một bản sao của đối số)
+- **Truyền tham chiếu** (passing by reference): truyền địa chỉ của đối số cho tham số của hàm (tham số và đối số là một).  
+-> Mọi thay đổi trên tham số **sẽ thay đổi** trên đối số.
+
+
