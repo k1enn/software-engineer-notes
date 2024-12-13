@@ -42,19 +42,19 @@
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">4</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://k1enn.github.io/Nhap-mon-lap-trinh/bai4" style="text-decoration: none;">Cấu trúc Lặp</a></td>        
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai4.md" style="text-decoration: none;">Cấu trúc Lặp</a></td>        
         </tr>
       <tr>
             <td style="border: 1px solid black; padding: 8px;">5</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="//github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai5.md" style="text-decoration: none;">Hàm</a></td>        
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai5.md" style="text-decoration: none;">Hàm</a></td>        
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">6</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="//github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai6.md" style="text-decoration: none;">Mảng một chiều</a></td>        
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai6.md" style="text-decoration: none;">Mảng một chiều</a></td>        
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">6</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="//github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai7.md" style="text-decoration: none;">Mảng hai chiều</a></td>        
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai7.md" style="text-decoration: none;">Mảng hai chiều</a></td>        
         </tr>
     </tbody>
 </table>
