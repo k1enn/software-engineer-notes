@@ -18,7 +18,7 @@
       <small> November, 2024</small>
 </div>
 
-[Buổi 9](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi9/buoi9.md) 
+[Buổi 9](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/data-structures-and-algorithms-exercises/Buoi9/buoi9.md) 
 
 ## Nội dung
 Làm các bài tập giải đề liên quan tới các buổi đã học, bao gồm 7 đề khác nhau
@@ -33,18 +33,18 @@ Làm các bài tập giải đề liên quan tới các buổi đã học, bao g
     <tbody>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">1</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/DSA/blob/main/Buoi10/De1/de1.md" style="text-decoration: none;">Ôn tập cây nhị phân tìm kiếm</a></td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/DSA/tree/main/Buoi10/De1" style="text-decoration: none;">Đáp án</a></td>
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/data-structures-and-algorithms-exercises/Buoi10/De1/de1.md" style="text-decoration: none;">Ôn tập cây nhị phân tìm kiếm</a></td>
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/data-structures-and-algorithms-exercises/Buoi10/De1" style="text-decoration: none;">Đáp án</a></td>
         </tr>       
         <tr>
             <td style="border: 1px solid black; padding: 8px;">2</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/DSA/blob/main/Buoi10/De2/de2.md" style="text-decoration: none;">Ôn tập</a></td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/DSA/tree/main/Buoi10/De2" style="text-decoration: none;">Đáp án</a></td>
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/data-structures-and-algorithms-exercises/Buoi10/De2/de2.md" style="text-decoration: none;">Ôn tập</a></td>
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/data-structures-and-algorithms-exercises/Buoi10/De2" style="text-decoration: none;">Đáp án</a></td>
         </tr>     
 	    <tr>
             <td style="border: 1px solid black; padding: 8px;">3</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/DSA/blob/main/Buoi10/De3/de3.md" style="text-decoration: none;">Ôn tập</a></td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/DSA/tree/main/Buoi10/De3" style="text-decoration: none;">Đáp án</a></td>
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/data-structures-and-algorithms-exercises/Buoi10/De3/de3.md" style="text-decoration: none;">Ôn tập</a></td>
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/data-structures-and-algorithms-exercises/Buoi10/De3" style="text-decoration: none;">Đáp án</a></td>
         </tr>     
     </tbody>
 </table>
