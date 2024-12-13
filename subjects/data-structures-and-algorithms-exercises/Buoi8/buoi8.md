@@ -18,7 +18,7 @@
       <small> November, 2024</small>
 </div>
 
-[Buổi 7](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi7/buoi7.md) | [Buổi 9](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi9/buoi9.md) 
+[Buổi 7](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/data-structures-and-algorithms-exercises/Buoi7/buoi7.md) | [Buổi 9](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi9/buoi9.md) 
 
 ## Nội dung
 ### Yêu cầu 1: 

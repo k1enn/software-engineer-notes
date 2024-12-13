@@ -18,7 +18,7 @@
       <small> November, 2024</small>
 </div>
 
-[Buổi 6](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi6/buoi6.md) | [Buổi 4](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi4/buoi4.md)
+[Buổi 6](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/data-structures-and-algorithms-exercises/Buoi6/buoi6.md) | [Buổi 4](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/data-structures-and-algorithms-exercises/Buoi4/buoi4.md)
 ## Nội dung:
 ### Yêu cầu: 
 Bổ sung vào lớp MyList các phương thức sau (sinh viên cần xác định các thành phần của phương thức cho phù hợp):

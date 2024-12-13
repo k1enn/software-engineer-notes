@@ -18,7 +18,7 @@
       <small> November, 2024</small>
 </div>
 
-[Buổi 8](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi8/buoi8.md) | [Buổi 10](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi10/buoi10.md) 
+[Buổi 8](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/data-structures-and-algorithms-exercises/Buoi8/buoi8.md) | [Buổi 10](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/data-structures-and-algorithms-exercises/Buoi10/buoi10.md) 
 ## Nội dung: 
 
 1. Tạo một Project C# mới với tên là `HoTen_Lab06` (trong đó: HoTen là họ và tên của sinh viên, không khoảng trắng và không dấu tiếng Việt).

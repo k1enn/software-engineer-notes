@@ -42,8 +42,6 @@ Dự án này lưu lại lời giải tự làm cho môn Lập trình Web thực
 - [Buổi 7](https://github.com/k1enn/software-engineer-notes/tree/main/subjects/web-programming/Buoi7/DBStoreSport)
   - Thêm chức năng giỏ hàng
 - Các buổi khác lười quá nên không hoàn thành 100%
-## Kết quả
-Xem kết quả thực hành của các buổi học thông qua trang web được triển khai tại đây: [Coi kết quả](https://shorturl.at/uE37V)
 
 ### Thông Báo Pháp Lý
 

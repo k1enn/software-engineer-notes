@@ -19,7 +19,7 @@
 </div>
 
 
-[Buổi 2](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi2/buoi2.md)
+[Buổi 2](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/data-structures-and-algorithms-exercises/Buoi2/buoi2.md)
 ## Nội dung:
 Cho thông tin của sinh viên gồm:
 

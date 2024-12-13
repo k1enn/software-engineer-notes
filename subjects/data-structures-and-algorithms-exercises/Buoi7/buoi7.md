@@ -18,7 +18,7 @@
       <small> November, 2024</small>
 </div>
 
-[Buổi 6](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi6/buoi6.md) | [Buổi 8](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi8/buoi8.md)
+[Buổi 6](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/data-structures-and-algorithms-exercises/Buoi6/buoi6.md) | [Buổi 8](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/data-structures-and-algorithms-exercises/Buoi8/buoi8.md)
 ## Nội dung 
 ### Yêu cầu 1:
 Sử dụng cấu trúc mảng 1 chiều số nguyên, thiết kế lớp ArrayStack và thực hiện các yêu cầu sau:

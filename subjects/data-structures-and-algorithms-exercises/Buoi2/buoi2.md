@@ -18,7 +18,7 @@
       <small> November, 2024</small>
 </div>
 
-[Buổi 1](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi1/buoi1.md) | [Buổi 3](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi3/buoi3.md)
+[Buổi 1](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/data-structures-and-algorithms-exercises/Buoi1/buoi1.md) | [Buổi 3](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/data-structures-and-algorithms-exercises/Buoi3/buoi3.md)
 ## Yêu cầu:
 ### Yêu cầu 1: 
 Cho lớp mảng một chiều số nguyên (IntArray). Lớp gồm các chức năng sau:

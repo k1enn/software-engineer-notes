@@ -20,7 +20,7 @@
       <small> November, 2024</small>
 </div>
 
-[Buổi 2](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi2/buoi2.md) | [Buổi 4](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi4/buoi4.md)
+[Buổi 2](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/data-structures-and-algorithms-exercises/Buoi2/buoi2.md) | [Buổi 4](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/data-structures-and-algorithms-exercises/Buoi4/buoi4.md)
 ## Nội dung
 Dùng cấu trúc dữ liệu mảng 1 chiều, viết chương trình (ngôn ngữ C#) quản lý danh sách các quyển sách với các chức năng sau:
 1.	Các properties get/set và constructors cần thiết

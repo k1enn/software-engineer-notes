@@ -18,7 +18,7 @@
       <small> November, 2024</small>
 </div>
 
-[Buổi 3](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi3/buoi3.md) | [Buổi 6](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/DSA-practice/Buoi6/buoi6.md)
+[Buổi 3](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/data-structures-and-algorithms-exercises/Buoi3/buoi3.md) | [Buổi 6](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/data-structures-and-algorithms-exercises/Buoi6/buoi6.md)
 ## Nội dung
 Thiết kế lớp danh sách liên kết đơn số nguyên: MyList. 
 ### Yêu cầu 1: 
