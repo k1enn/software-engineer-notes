@@ -58,7 +58,7 @@
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">8</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai8.md" style="text-decoration: none;">Mảng hai chiều</a></td>        
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai8.md" style="text-decoration: none;">Chuỗi kí tự</a></td>        
         </tr>
     </tbody>
 </table>
