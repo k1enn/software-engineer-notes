@@ -20,7 +20,7 @@
 
 ## Các buổi học
 
-Tài liệu này được biên soạn dựa trên giáo trình và chương trình của Thầy Huỳnh Thành Lộc, với mục đích chia sẻ kiến thức. Nếu bạn phát hiện bất kỳ sai sót nào, dù là về nội dung hay trình bày, rất mong nhận được sự góp ý từ bạn.
+Các buổi học này được biên soạn dựa trên giáo trình và chương trình của Thầy Huỳnh Thành Lộc, với mục đích chia sẻ kiến thức. Nếu bạn phát hiện bất kỳ sai sót nào, dù là về nội dung hay trình bày, rất mong nhận được sự góp ý từ bạn.
 <div align="left"><table style="width:100%; border-collapse: collapse; border: 1px solid black;">
     <thead>
         <tr>
@@ -72,7 +72,10 @@ Tài liệu này được biên soạn dựa trên giáo trình và chương tr�
 ## PDF
 Các bạn có thể tải file PDF [ở đây](https://github.com/k1enn/software-engineer-notes/tree/main/subjects/programming-fundamental/PDF)
 
-
+## Tài liệu tham khảo
+- [Microsoft](https://learn.microsoft.com/en-us/shows/csharp-fundamentals-for-absolute-beginners/)
+- [W3School](https://www.w3schools.com/cs/index.php)
+- [Freecodecamp](https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft)
 ---
 
 ### Thông Báo Pháp Lý
