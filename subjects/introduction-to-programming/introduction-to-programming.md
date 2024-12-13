@@ -50,7 +50,11 @@
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">6</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="//github.com/k1enn/software-engineer-notes/blob/main/subjects/introduction-to-programming/bai6.md" style="text-decoration: none;">Hàm</a></td>        
+            <td style="border: 1px solid black; padding: 8px;"><a href="//github.com/k1enn/software-engineer-notes/blob/main/subjects/introduction-to-programming/bai6.md" style="text-decoration: none;">Mảng một chiều</a></td>        
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 8px;">6</td>
+            <td style="border: 1px solid black; padding: 8px;"><a href="//github.com/k1enn/software-engineer-notes/blob/main/subjects/introduction-to-programming/bai7.md" style="text-decoration: none;">Mảng hai chiều</a></td>        
         </tr>
     </tbody>
 </table>
