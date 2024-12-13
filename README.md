@@ -23,11 +23,6 @@ Ghi chú và tài liệu tất cả các môn liên quan trong 4 năm học HUFL
 - [web-programming](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/web-programming/web-programming.md)
 
 
-
-## PDF
-Các bạn có thể tải file PDF [ở đây](https://github.com/k1enn/Nhap-mon-lap-trinh/tree/main/PDF)
-
-
 ---
 
 ### Thông Báo Pháp Lý
