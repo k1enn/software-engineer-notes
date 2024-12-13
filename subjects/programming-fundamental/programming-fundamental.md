@@ -30,11 +30,11 @@
     <tbody>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">1</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="//github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai1" style="text-decoration: none;">Tổng quan về lập trình</a></td>            
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai1.md" style="text-decoration: none;">Tổng quan về lập trình</a></td>            
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">2</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="//github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai2" style="text-decoration: none;">Chương trình C# đầu tiên</a></td>            
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai2.md" style="text-decoration: none;">Chương trình C# đầu tiên</a></td>            
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">3</td>
