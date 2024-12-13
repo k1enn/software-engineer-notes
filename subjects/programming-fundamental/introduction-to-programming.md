@@ -30,15 +30,15 @@
     <tbody>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">1</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="//github.com/k1enn/software-engineer-notes/blob/main/subjects/introduction-to-programming/bai1" style="text-decoration: none;">Tổng quan về lập trình</a></td>            
+            <td style="border: 1px solid black; padding: 8px;"><a href="//github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai1" style="text-decoration: none;">Tổng quan về lập trình</a></td>            
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">2</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="//github.com/k1enn/software-engineer-notes/blob/main/subjects/introduction-to-programming/bai2" style="text-decoration: none;">Chương trình C# đầu tiên</a></td>            
+            <td style="border: 1px solid black; padding: 8px;"><a href="//github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai2" style="text-decoration: none;">Chương trình C# đầu tiên</a></td>            
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">3</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/introduction-to-programming/bai3.md" style="text-decoration: none;">Cấu trúc Lựa chọn</a></td>            
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai3.md" style="text-decoration: none;">Cấu trúc Lựa chọn</a></td>            
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">4</td>
@@ -46,15 +46,15 @@
         </tr>
       <tr>
             <td style="border: 1px solid black; padding: 8px;">5</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="//github.com/k1enn/software-engineer-notes/blob/main/subjects/introduction-to-programming/bai5.md" style="text-decoration: none;">Hàm</a></td>        
+            <td style="border: 1px solid black; padding: 8px;"><a href="//github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai5.md" style="text-decoration: none;">Hàm</a></td>        
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">6</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="//github.com/k1enn/software-engineer-notes/blob/main/subjects/introduction-to-programming/bai6.md" style="text-decoration: none;">Mảng một chiều</a></td>        
+            <td style="border: 1px solid black; padding: 8px;"><a href="//github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai6.md" style="text-decoration: none;">Mảng một chiều</a></td>        
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">6</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="//github.com/k1enn/software-engineer-notes/blob/main/subjects/introduction-to-programming/bai7.md" style="text-decoration: none;">Mảng hai chiều</a></td>        
+            <td style="border: 1px solid black; padding: 8px;"><a href="//github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai7.md" style="text-decoration: none;">Mảng hai chiều</a></td>        
         </tr>
     </tbody>
 </table>
