@@ -65,7 +65,7 @@
 </div>
 
 ## PDF
-Các bạn có thể tải file PDF [ở đây](https://github.com/k1enn/Nhap-mon-lap-trinh/tree/main/PDF)
+Các bạn có thể tải file PDF [ở đây](https://github.com/k1enn/software-engineer-notes/tree/main/subjects/programming-fundamental/PDF)
 
 
 ---
