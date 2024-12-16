@@ -68,8 +68,8 @@ Vậy sau khi đi qua 4 dòng trên theo cấu trúc Tuần tự, kết quả a 
 ## Các phép toán số học
 
 Toán tử một ngôi (unary operators): 
--  Tăng một đơn vị: ++ 
--  Giảm một đơn vị: - 
+-  Tăng một đơn vị: `++` 
+-  Giảm một đơn vị: `--` 
 -  Hỗ trợ 2 cách viết: `--i` hoặc `i--` và `++i` hoặc `i++`
 -  Đổi dấu: `-i` Nếu i là số âm sẽ thành dương và ngược lại.
 
