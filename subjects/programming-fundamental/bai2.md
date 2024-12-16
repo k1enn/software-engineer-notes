@@ -82,8 +82,10 @@ Toán tử hai ngôi (binary operators):
 
 Phép toán chuyển kiểu:
 - **Implicit Casting** (automatically) - chuyển từ kiểu có kích thước nhỏ hơn sang lớn hơn, không mất mát dữ liệu
+
 `char` -> `int` -> `long` -> `float` -> `double`    
 - **Explicit Casting** (manually) - chuyển từ kiểu có kích thước lớn hơn sang nhỏ hơn, gây mất mát dữ liệu
+
 `double` -> `float` -> `long` -> `int` -> `char`
 
 Một số hàm toán học: Lớp `Math`:
