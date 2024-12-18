@@ -68,8 +68,8 @@ Vậy sau khi đi qua 4 dòng trên theo cấu trúc Tuần tự, kết quả a 
 ## Các phép toán số học
 
 Toán tử một ngôi (unary operators): 
--  Tăng một đơn vị: ++ 
--  Giảm một đơn vị: - 
+-  Tăng một đơn vị: `++` 
+-  Giảm một đơn vị: `--` 
 -  Hỗ trợ 2 cách viết: `--i` hoặc `i--` và `++i` hoặc `i++`
 -  Đổi dấu: `-i` Nếu i là số âm sẽ thành dương và ngược lại.
 
@@ -82,8 +82,10 @@ Toán tử hai ngôi (binary operators):
 
 Phép toán chuyển kiểu:
 - **Implicit Casting** (automatically) - chuyển từ kiểu có kích thước nhỏ hơn sang lớn hơn, không mất mát dữ liệu
+
 `char` -> `int` -> `long` -> `float` -> `double`    
 - **Explicit Casting** (manually) - chuyển từ kiểu có kích thước lớn hơn sang nhỏ hơn, gây mất mát dữ liệu
+
 `double` -> `float` -> `long` -> `int` -> `char`
 
 Một số hàm toán học: Lớp `Math`:
