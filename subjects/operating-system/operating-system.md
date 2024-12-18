@@ -18,66 +18,11 @@
       <small> December, 2024</small>
 </div>
 
-## Các buổi học
+## Lời nói đầu
 
-Các buổi học này được biên soạn dựa trên giáo trình và chương trình của Thầy Huỳnh Thành Lộc, với mục đích chia sẻ kiến thức. Nếu bạn phát hiện bất kỳ sai sót nào, dù là về nội dung hay trình bày, rất mong nhận được sự góp ý từ bạn.
-<div align="left"><table style="width:100%; border-collapse: collapse; border: 1px solid black;">
-    <thead>
-        <tr>
-            <th style="border: 1px solid black; padding: 8px;">Buổi học</th>
-            <th style="border: 1px solid black; padding: 8px;">Nội dung</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td style="border: 1px solid black; padding: 8px;">1</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai1.md" style="text-decoration: none;">Tổng quan về lập trình</a></td>            
-        </tr>
-        <tr>
-            <td style="border: 1px solid black; padding: 8px;">2</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai2.md" style="text-decoration: none;">Chương trình C# đầu tiên</a></td>            
-        </tr>
-        <tr>
-            <td style="border: 1px solid black; padding: 8px;">3</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai3.md" style="text-decoration: none;">Cấu trúc Lựa chọn</a></td>            
-        </tr>
-        <tr>
-            <td style="border: 1px solid black; padding: 8px;">4</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai4.md" style="text-decoration: none;">Cấu trúc Lặp</a></td>        
-        </tr>
-      <tr>
-            <td style="border: 1px solid black; padding: 8px;">5</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai5.md" style="text-decoration: none;">Hàm</a></td>        
-        </tr>
-        <tr>
-            <td style="border: 1px solid black; padding: 8px;">6</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai6.md" style="text-decoration: none;">Mảng một chiều</a></td>        
-        </tr>
-        <tr>
-            <td style="border: 1px solid black; padding: 8px;">7</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai7.md" style="text-decoration: none;">Mảng hai chiều</a></td>        
-        </tr>
-        <tr>
-            <td style="border: 1px solid black; padding: 8px;">8</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai8.md" style="text-decoration: none;">Chuỗi kí tự</a></td>        
-        </tr>
-        <tr>
-            <td style="border: 1px solid black; padding: 8px;">9</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai9.md" style="text-decoration: none;">Đọc và ghi văn bản</a></td>        
-        </tr>
-    </tbody>
-</table>
-</div>
+Các buổi học này được chép tay lại từ những buổi học môn Hệ Điều hành. Nếu bạn phát hiện bất kỳ sai sót nào, dù là về nội dung hay trình bày, rất mong nhận được sự góp ý từ bạn.
 
-## PDF
-Các bạn có thể tải file PDF [ở đây](https://github.com/k1enn/software-engineer-notes/tree/main/subjects/programming-fundamental/PDF)
-
-## Tài liệu tham khảo
-- [Microsoft](https://learn.microsoft.com/en-us/shows/csharp-fundamentals-for-absolute-beginners/)
-- [W3School](https://www.w3schools.com/cs/index.php)
-- [Freecodecamp](https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft)
----
-
+## PDF [ở đây](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/operating-system/operating-system.pdf)
 ### Thông Báo Pháp Lý
 
 Kho lưu trữ này được tạo ra với mục đích giáo dục. Nó chứa các kết quả và lời giải liên quan đến Nhập môn Lập trình dành cho sinh viên HUFLIT. Xin lưu ý các điểm sau:
