@@ -22,7 +22,7 @@ Ghi chú và tài liệu tất cả các môn liên quan trong 4 năm học HUFL
 - [programming-fundamental](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/programming-fundamental.md)
 - [web-programming](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/web-programming/web-programming.md)
 - [operating-system](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/operating-system/operating-system.md)
-
+- [computer-networking](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/computer-networking)
 
 ---
 
