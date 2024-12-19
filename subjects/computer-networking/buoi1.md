@@ -18,7 +18,8 @@ Internet bao gồm hàng triệu thiết bị tính toán kết nối với nhau
 	- Tốc độ truyền = băng thông
 
 - Routers: chuyển các gói tin (gói dữ liệu hay gói điều khiển còn gọi là thông điệp)
-![[1.png]]
+
+![1](../../images/computer-networking/1.png)
 
 ## Internet: “mạng của các mạng”
 
@@ -72,7 +73,8 @@ Các gói xếp hàng trong bộ đệm của router
 - **Tỷ lệ các gói đến lớn hơn khả năng xuất đi**
 - Các gói xếp hàng, chờ đến lượt xuất
 
-![[../../2.png]]
+![2](../../images/computer-networking/2.png)
+
 
 ## 4 nguyên nhân truyền gói dữ liệu trễ
 
@@ -128,7 +130,7 @@ Nhằm xử lý với các hệ thống phức tạp:
 
 **physical**: các bit “trên đường dây”
 
-![[3.png]]
+![3](../../images/computer-networking/3.png)
 
 ## ISO/OSI reference model
 
@@ -146,11 +148,11 @@ Nhằm xử lý với các hệ thống phức tạp:
 
 **Tầng vật lý** (Physical layer): đường truyền vật lý, các chuẩn về điện, dây cáp, đầu nối..
 
-![[4.png]]
+![4](../../images/computer-networking/4.png)
 
 ## Encapsulation
 
-![[../../5.png]]
+![5](../../images/computer-networking/5.png)
 
 ## Internet history
 
