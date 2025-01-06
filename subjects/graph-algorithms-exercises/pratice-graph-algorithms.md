@@ -31,43 +31,46 @@ Các buổi học này được biên soạn dựa trên giáo trình và chươ
     <tbody>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">1</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/buoi1.md" style="text-decoration: none;">Tổng quan về lập trình</a></td>            
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/buoi1.md" style="text-decoration: none;">Nhập, Xuất và Thao Tác Cơ Bản Trên Đồ Thị</a></td>            
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">2</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/buoi2.md" style="text-decoration: none;">Chương trình C# đầu tiên</a></td>            
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/buoi2.md" style="text-decoration: none;">Vận Dụng Các Thao Tác Cơ Bản Trên Đồ Thị</a></td>            
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">3</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/buoi3.md" style="text-decoration: none;">Cấu trúc Lựa chọn</a></td>            
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/buoi3.md" style="text-decoration: none;">Thuật Toán BFS và Bài Tập Vận Dụng</a></td>            
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">4</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/buoi4.md" style="text-decoration: none;">Cấu trúc Lặp</a></td>        
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/buoi4.md" style="text-decoration: none;">Thuật Toán Tìm Kiếm Theo Chiều Rộng DFS</a></td>        
         </tr>
       <tr>
             <td style="border: 1px solid black; padding: 8px;">5</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/buoi5.md" style="text-decoration: none;">Hàm</a></td>        
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/buoi5.md" style="text-decoration: none;">Thuật Toán Tìm Đường Đi Ngắn Nhất</a></td>        
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">6</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/buoi6.md" style="text-decoration: none;">Mảng một chiều</a></td>        
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/buoi6.md" style="text-decoration: none;">Cây Khung Nhỏ Nhất</a></td>        
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">7</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/buoi7.md" style="text-decoration: none;">Mảng hai chiều</a></td>        
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/buoi7.md" style="text-decoration: none;">Chu Trình Euler</a></td>        
         </tr>
     </tbody>
 </table>
 </div>
 
-## PDF
-Các bạn có thể tải file PDF [ở đây](https://github.com/k1enn/software-engineer-notes/tree/main/subjects/programming-fundamental/PDF)
+## [Lời giải](https://github.com/k1enn/software-engineer-notes/edit/main/subjects/graph-algorithms-exercises)
+
 
 ## Tài liệu tham khảo
-- [Microsoft](https://learn.microsoft.com/en-us/shows/csharp-fundamentals-for-absolute-beginners/)
-- [W3School](https://www.w3schools.com/cs/index.php)
-- [Freecodecamp](https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft)
+- [DSA Graphs](https://www.w3schools.com/dsa/dsa_theory_graphs.php)
+- [DSA Graphs Implementation](https://www.w3schools.com/dsa/dsa_data_graphs_implementation.php)
+- [DSA Graphs Traversal](https://www.w3schools.com/dsa/dsa_algo_graphs_traversal.php)
+- [DSA Graphs Cycle Detection](https://www.w3schools.com/dsa/dsa_algo_graphs_cycledetection.php)
+- [DSA Dijkstra's Algorithm](https://www.w3schools.com/dsa/dsa_algo_graphs_dijkstra.php)
+- [DSA Bellman-Ford Algorithm](https://www.w3schools.com/dsa/dsa_algo_graphs_bellmanford.php)
 ---
 
 ### Thông Báo Pháp Lý
