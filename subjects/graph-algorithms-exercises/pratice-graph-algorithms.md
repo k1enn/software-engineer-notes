@@ -31,31 +31,31 @@ Các buổi học này được biên soạn dựa trên giáo trình và chươ
     <tbody>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">1</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai1.md" style="text-decoration: none;">Tổng quan về lập trình</a></td>            
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/buoi1.md" style="text-decoration: none;">Tổng quan về lập trình</a></td>            
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">2</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai2.md" style="text-decoration: none;">Chương trình C# đầu tiên</a></td>            
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/buoi2.md" style="text-decoration: none;">Chương trình C# đầu tiên</a></td>            
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">3</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai3.md" style="text-decoration: none;">Cấu trúc Lựa chọn</a></td>            
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/buoi3.md" style="text-decoration: none;">Cấu trúc Lựa chọn</a></td>            
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">4</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai4.md" style="text-decoration: none;">Cấu trúc Lặp</a></td>        
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/buoi4.md" style="text-decoration: none;">Cấu trúc Lặp</a></td>        
         </tr>
       <tr>
             <td style="border: 1px solid black; padding: 8px;">5</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai5.md" style="text-decoration: none;">Hàm</a></td>        
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/buoi5.md" style="text-decoration: none;">Hàm</a></td>        
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">6</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai6.md" style="text-decoration: none;">Mảng một chiều</a></td>        
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/buoi6.md" style="text-decoration: none;">Mảng một chiều</a></td>        
         </tr>
         <tr>
             <td style="border: 1px solid black; padding: 8px;">7</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/bai7.md" style="text-decoration: none;">Mảng hai chiều</a></td>        
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/buoi7.md" style="text-decoration: none;">Mảng hai chiều</a></td>        
         </tr>
     </tbody>
 </table>
@@ -72,7 +72,7 @@ Các bạn có thể tải file PDF [ở đây](https://github.com/k1enn/softwar
 
 ### Thông Báo Pháp Lý
 
-Kho lưu trữ này được tạo ra với mục đích giáo dục. Nó chứa các kết quả và lời giải liên quan đến Nhập môn Lập trình dành cho sinh viên HUFLIT. Xin lưu ý các điểm sau:
+Kho lưu trữ này được tạo ra với mục đích giáo dục. Nó chứa các kết quả và lời giải liên quan đến Thuật toán Đồ thị dành cho sinh viên. Xin lưu ý các điểm sau:
 
 - **Trung Thực Học Thuật**: Nội dung của kho lưu trữ này nhằm mục đích làm tài liệu tham khảo hoặc hỗ trợ học tập. Sinh viên nên sử dụng những tài liệu này để nâng cao sự hiểu biết của mình, nhưng không nên sao chép trực tiếp hoặc nộp các lời giải này để tính điểm học tập.
 - **Không Đảm Bảo Độ Chính Xác**: Dù đã cố gắng để đảm bảo tính chính xác của nội dung, có thể vẫn tồn tại lỗi. Người dùng nên kiểm tra và đối chiếu lời giải trước khi sử dụng trong học tập hoặc công việc chuyên môn.
