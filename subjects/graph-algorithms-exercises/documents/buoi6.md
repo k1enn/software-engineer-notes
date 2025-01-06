@@ -28,11 +28,16 @@
 - `ShowTree()`: Xuất thông tin về cây khung nhỏ nhất
 
 ## Menu Chức Năng
-![[buoi7_0.png]]
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi7_0.png">
+
 
 ### Lựa Chọn 1
 - Kết quả lựa chọn 1
-![[buoi7_1.png]]
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi7_1.png">
+
 ### Lựa Chọn 2
 - Kết quả lựa chọn 2
-![[buoi7_2.png]]
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi7_2.png">
