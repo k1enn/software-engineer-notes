@@ -9,103 +9,105 @@ namespace _23DH111757
 {
     internal class AdjMatrix
     {
-        public int n;   // số đỉnh
-        public int[,] a;    // Ma trận kề
-                            // propeties
-        public int N { get => n; set => n = value; }
-        public int[,] A { get => a; set => a = value; }
-        // constructor không đối số
+        public int numberOfVertices;   // số đỉnh
+        public int[,] adjacencyMatrix;  // Ma trận kề
+
+        // Properties
+        public int N { get => numberOfVertices; set => numberOfVertices = value; }
+        public int[,] A { get => adjacencyMatrix; set => adjacencyMatrix = value; }
+
+        // Constructor không đối số
         public AdjMatrix() { }
-        // constructor có đối số k là số đỉnh của đồ thị
+
+        // Constructor có đối số k là số đỉnh của đồ thị
         public AdjMatrix(int k)
         {
-            n = k;
-            a = new int[n, n];
+            numberOfVertices = k;
+            adjacencyMatrix = new int[numberOfVertices, numberOfVertices];
         }
-        // Đọc file AdjMatrix --> ma trận a
+
+        // Đọc file AdjMatrix --> ma trận adjacencyMatrix
         public void FileToAdjMatrix(string filePath)
         {
-            StreamReader sr = new StreamReader(filePath);
-            n = int.Parse(sr.ReadLine());
-            a = new int[n, n];
-            for (int i = 0; i < n; i++)
+            using (StreamReader sr = new StreamReader(filePath))
             {
-                string[] s = sr.ReadLine().Split();
-                for (int j = 0; j < n; j++)
-                    a[i, j] = int.Parse(s[j]);
+                numberOfVertices = int.Parse(sr.ReadLine());
+                adjacencyMatrix = new int[numberOfVertices, numberOfVertices];
+
+                for (int i = 0; i < numberOfVertices; i++)
+                {
+                    string[] rowData = sr.ReadLine().Split();
+                    for (int j = 0; j < numberOfVertices; j++)
+                        adjacencyMatrix[i, j] = int.Parse(rowData[j]);
+                }
             }
-            sr.Close();
         }
-        // Xuất ma trận a lên màn hình
+
+        // Xuất ma trận adjacencyMatrix lên màn hình
         public void Output()
         {
-            Console.WriteLine("Đồ thị ma trận kề - số đỉnh : " + n);
+            Console.WriteLine("Đồ thị ma trận kề - số đỉnh: " + numberOfVertices);
             Console.WriteLine();
             Console.Write(" Đỉnh |");
-            for (int i = 0; i < n; i++) Console.Write("    {0}", i);
-            Console.WriteLine(); Console.WriteLine("  " + new string('-', 6 * n));
-            for (int i = 0; i < n; i++)
+            for (int i = 0; i < numberOfVertices; i++) Console.Write("    {0}", i);
+            Console.WriteLine();
+            Console.WriteLine("  " + new string('-', 6 * numberOfVertices));
+
+            for (int i = 0; i < numberOfVertices; i++)
             {
                 Console.Write("    {0} |", i);
-                for (int j = 0; j < n; j++)
-                    Console.Write("  {0, 3}", a[i, j]);
+                for (int j = 0; j < numberOfVertices; j++)
+                    Console.Write("  {0, 3}", adjacencyMatrix[i, j]);
                 Console.WriteLine();
             }
         }
-        // phần xử lý các thao tác trên đồ thị là bài tập thực hành
-        // Tính bậc của đỉnh i **************************************
+
+        // Tính bậc của đỉnh i
         public void DegV()
         {
-            Console.WriteLine("Bậc của các đỉnh :");
+            Console.WriteLine("Bậc của các đỉnh:");
             for (int i = 0; i < A.GetLength(0); i++)
             {
-                var count = 0;
+                int count = 0;
                 for (int j = 0; j < A.GetLength(1); j++)
                 {
                     if (A[i, j] == 1)
                         count++;
-                    else
-                        continue;
                 }
                 Console.WriteLine($"deg({i}): {count}");
             }
         }
 
-        // Bậc ra của đỉnh i ******************************************
+        // Bậc ra của đỉnh i
         public int DegOut(int i)
         {
-            int deg = 0;
-            //duyệt cột j của dòng i
-
+            int degree = 0;
             for (int j = 0; j < A.GetLength(1); j++)
             {
-                if (A[i, j] == 1) deg++;
+                if (A[i, j] == 1) degree++;
             }
-
-            return deg;
+            return degree;
         }
+
         // Bậc vào của đỉnh j
         public int DegIn(int j)
         {
-            int deg = 0;
-
+            int degree = 0;
             for (int i = 0; i < A.GetLength(0); i++)
             {
-                if (A[i, j] == 1) deg++;
+                if (A[i, j] == 1) degree++;
             }
-
-            return deg;
+            return degree;
         }
 
         public void DegVInOut()
         {
-            Console.WriteLine("Bậc của các đỉnh :");
+            Console.WriteLine("Bậc của các đỉnh:");
             Console.WriteLine("      Vào - Ra");
-            for (int i = 0; i < n; i++)
+            for (int i = 0; i < numberOfVertices; i++)
             {
                 Console.WriteLine("  {0} :  {1}  -  {2}", i, DegIn(i), DegOut(i));
             }
         }
     }
 }
-

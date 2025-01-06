@@ -9,73 +9,81 @@ namespace _23DH111757
 {
     internal class AdjList
     {
-        LinkedList<int>[] v;
-        int n;  // Số đỉnh
-        //Propeties
-        public int N { get => n; set => n = value; }
+        LinkedList<int>[] vertices;
+        int numberOfVertices;  // Số đỉnh
+
+        // Properties
+        public int N { get => numberOfVertices; set => numberOfVertices = value; }
         public LinkedList<int>[] V
         {
-            get { return v; }
-            set { v = value; }
+            get { return vertices; }
+            set { vertices = value; }
         }
-        // Contructor
+
+        // Constructor
         public AdjList() { }
-        public AdjList(int k)   // Khởi tạo v có k đỉnh
+
+        public AdjList(int k)   // Khởi tạo vertices có k đỉnh
         {
-            v = new LinkedList<int>[k];
+            vertices = new LinkedList<int>[k];
         }
-        // copy g --> đồ thị hiện tại v
+
+        // Copy g --> đồ thị hiện tại vertices
         public AdjList(LinkedList<int>[] g)
         {
-            v = g;
+            vertices = g;
         }
-        // Đọc file AdjList.txt --> danh sách kề v
+
+        // Đọc file AdjList.txt --> danh sách kề vertices
         public void FileToAdjList(string filePath)
         {
-            StreamReader sr = new StreamReader(filePath);
-            n = int.Parse(sr.ReadLine());
-            v = new LinkedList<int>[n];
-            for (int i = 0; i < n; i++)
+            using (StreamReader sr = new StreamReader(filePath))
             {
-                v[i] = new LinkedList<int>();
-                string st = sr.ReadLine();
-                // Đặt điều kiện không phải đỉnh cô lập
-                if (st != "")
+                numberOfVertices = int.Parse(sr.ReadLine());
+                vertices = new LinkedList<int>[numberOfVertices];
+
+                for (int i = 0; i < numberOfVertices; i++)
                 {
-                    string[] s = st.Split();
-                    for (int j = 0; j < s.Length; j++)
+                    vertices[i] = new LinkedList<int>();
+                    string line = sr.ReadLine();
+
+                    // Đặt điều kiện không phải đỉnh cô lập
+                    if (!string.IsNullOrWhiteSpace(line))
                     {
-                        int x = int.Parse(s[j]);
-                        v[i].AddLast(x);
+                        string[] items = line.Split();
+                        foreach (var item in items)
+                        {
+                            int vertex = int.Parse(item);
+                            vertices[i].AddLast(vertex);
+                        }
                     }
                 }
             }
-            sr.Close();
         }
+
         // Xuất đồ thị
         public void Output()
         {
-            Console.WriteLine("Đồ thị danh sách kề - số đỉnh : " + n);
-            for (int i = 0; i < v.Length; i++)
+            Console.WriteLine("Đồ thị danh sách kề - số đỉnh: " + numberOfVertices);
+            for (int i = 0; i < vertices.Length; i++)
             {
                 Console.Write("   Đỉnh {0} ->", i);
-                foreach (int x in v[i])
-                    Console.Write("{0, 3}", x);
+                foreach (int vertex in vertices[i])
+                    Console.Write("{0, 3}", vertex);
                 Console.WriteLine();
             }
         }
+
         public void DegV()
         {
-            Console.WriteLine("Bậc của các đỉnh :");            
-            //Duyệt qua mỗi đỉnh
-            //tại mỗi đỉnh tính bậc bằng phương thức count của LinkedList
-            for(int i = 0; i < v.Length && v[i] != null; i++)
+            Console.WriteLine("Bậc của các đỉnh:");
+            /* Duyệt qua mỗi đỉnh
+             Tại mỗi đỉnh tính bậc bằng phương thức Count của LinkedList */
+            for (int i = 0; i < vertices.Length; i++)
             {
-                var count = 0;
-                count = v[i].Count();
+                int count = vertices[i].Count();
                 Console.WriteLine($"deg({i}): {count}");
             }
         }
-
     }
 }
