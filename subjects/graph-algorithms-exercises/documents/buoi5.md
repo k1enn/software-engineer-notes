@@ -29,11 +29,20 @@
 - `PrintFloyd()`: Xuất thông tin đường đi của thuật toán Floyd
 
 ## Menu Chức Năng
-![[buoi6_1.png]]
+
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi6_1.png">
 
 ### Lựa Chọn 1
 - Kết quả lựa chọn 1
-![[buoi6_2.png]]
+
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi6_2.png">
+
 ### Lựa Chọn 2
 - Kết quả lựa chọn 2
-![[buoi6_3.png]]![[buoi6_3_1.png]]
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi6_3.png">
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi6_3_1.png">
+
