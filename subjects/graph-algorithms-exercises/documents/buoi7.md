@@ -29,11 +29,16 @@
 - `TestEulerUnDirected(AdjMatrix g)`: Kiểm tra chu trình Euler
 
 ## Menu Chức Năng
-![[Pasted image 20250105142624.png]]
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi7_0.png">
 
 ### Lựa Chọn 1
 - Kết quả lựa chọn 1
-![[Pasted image 20250105142636.png]]
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi7_1.png">
+
 ### Lựa Chọn 2
 - Kết quả lựa chọn 2
-![[Pasted image 20250105142641.png]]
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi7_2.png">
+
