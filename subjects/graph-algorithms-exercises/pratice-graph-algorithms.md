@@ -65,21 +65,21 @@ Các buổi học này được biên soạn dựa trên giáo trình và chươ
 
 
 ## Tài liệu tham khảo
-- [DSA Graphs](https://www.w3schools.com/dsa/dsa_theory_graphs.php)
-- [DSA Graphs Implementation](https://www.w3schools.com/dsa/dsa_data_graphs_implementation.php)
-- [DSA Graphs Traversal](https://www.w3schools.com/dsa/dsa_algo_graphs_traversal.php)
-- [DSA Graphs Cycle Detection](https://www.w3schools.com/dsa/dsa_algo_graphs_cycledetection.php)
-- [DSA Dijkstra's Algorithm](https://www.w3schools.com/dsa/dsa_algo_graphs_dijkstra.php)
-- [DSA Bellman-Ford Algorithm](https://www.w3schools.com/dsa/dsa_algo_graphs_bellmanford.php)
----
+- [W3School](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+- [Graph Algorithms for Technical Interviews - FreeCodeCamp](https://www.youtube.com/watch?v=tWVWeAqZ0WU)
+- [Graph Algorithms Crash Course (with Java) - FreeCodeCamp](https://www.youtube.com/watch?v=dS44jZyj5gU)
+- [GeeksforGeeks](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+- [Stack - Microsoft](https://learn.microsoft.com/en-us/dotnet/api/system.collections.stack?view=net-9.0)
+- [Queue - Microsoft](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.queue-1?view=net-9.0)
+- [Tuple - Microsoft](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-tuples)
+- [LinkedList - Microsoft](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.linkedlist-1?view=net-9.0)
 
-### Thông Báo Pháp Lý
+### Thông Báo Pháp Lý 
+Kho lưu trữ này được tạo ra cho mục đích giáo dục, chứa các kết quả và lời giải về Thuật toán Đồ thị. Lưu ý:
 
-Kho lưu trữ này được tạo ra với mục đích giáo dục. Nó chứa các kết quả và lời giải liên quan đến Thuật toán Đồ thị dành cho sinh viên. Xin lưu ý các điểm sau:
+- **Trung thực học thuật**: Sử dụng tài liệu để tham khảo, không sao chép trực tiếp để nộp bài.
+- **Không đảm bảo độ chính xác**: Có thể có lỗi, nên kiểm tra trước khi sử dụng.
+- **Không chịu trách nhiệm**: Chủ sở hữu không chịu trách nhiệm về việc sử dụng sai mục đích.
+- **Tôn trọng bản quyền**: Không phân phối lại hoặc xuất bản mà không có sự cho phép.
 
-- **Trung Thực Học Thuật**: Nội dung của kho lưu trữ này nhằm mục đích làm tài liệu tham khảo hoặc hỗ trợ học tập. Sinh viên nên sử dụng những tài liệu này để nâng cao sự hiểu biết của mình, nhưng không nên sao chép trực tiếp hoặc nộp các lời giải này để tính điểm học tập.
-- **Không Đảm Bảo Độ Chính Xác**: Dù đã cố gắng để đảm bảo tính chính xác của nội dung, có thể vẫn tồn tại lỗi. Người dùng nên kiểm tra và đối chiếu lời giải trước khi sử dụng trong học tập hoặc công việc chuyên môn.
-- **Không Chịu Trách Nhiệm**: Chủ sở hữu kho lưu trữ không chịu trách nhiệm về việc sử dụng sai mục đích các tài liệu được cung cấp, bao gồm vi phạm các quy định học thuật hoặc hành vi sai trái.
-- **Tôn Trọng Bản Quyền**: Vui lòng tôn trọng quyền sở hữu trí tuệ của chủ sở hữu kho lưu trữ và các người đóng góp khác. Không phân phối lại hoặc xuất bản nội dung mà không có sự cho phép hoặc ghi nguồn đầy đủ.
-
-Khi sử dụng kho lưu trữ này, bạn đồng ý với các điều khoản trên và cam kết giữ vững sự trung thực trong học tập.
+Sử dụng kho lưu trữ này đồng nghĩa với việc bạn đồng ý với các điều khoản trên và cam kết trung thực trong học tập.
