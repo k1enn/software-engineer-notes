@@ -23,7 +23,7 @@ Ghi chú và tài liệu tất cả các môn liên quan trong 4 năm học HUFL
 - [web-programming](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/web-programming/web-programming.md)
 - [operating-system](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/operating-system/operating-system.md)
 - [computer-networking](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/computer-networking)
-- [graph-algoritms-exercises](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/pratice-graph-algorithms.md)
+- [graph-algorithms-exercises](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/pratice-graph-algorithms.md)
 
 ---
 
