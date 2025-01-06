@@ -1,4 +1,4 @@
-# Buổi 3, 4: Thuật Toán BFS và Bài Tập Vận Dụng
+# Buổi 3: Thuật Toán BFS và Bài Tập Vận Dụng
 
 ## Cấu Trúc Project
 
