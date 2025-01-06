@@ -72,17 +72,26 @@
 - `EdgeList2AdjList()`: Chuyển từ danh sách cạnh sang danh sách kề
 
 ## Menu Chức Năng
-![[buoi2_0.png]]
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi2_0.png">
 
 ### Lựa Chọn 1
 - Kết quả lựa chọn 1
-![[buoi2_1.png]]
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi2_1.png">
+
 ### Lựa Chọn 2
 - Kết quả lựa chọn 2
-![[buoi2_2.png]]
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi2_2.png">
+
 ### Lựa Chọn 3
 - Kết quả lựa chọn 3
-![[buoi2_3.png]]
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi2_3.png">
+
 ### Lựa Chọn 4
 - Kết quả lựa chọn 4
-![[buoi2_4.png]]
+
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi2_4.png">
