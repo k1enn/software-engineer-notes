@@ -69,19 +69,23 @@
 
 ### Lựa Chọn 1
 - Đọc dữ liệu trong `Bai_01.txt` vào ma trận kề sau đó thực hiện in ra số bậc của các đỉnh trong đồ thị
-![[buoi1_1.png]]
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi1_1.png">
 
 ### Lựa Chọn 2
 - Đọc dữ liệu trong `Bai_02.txt` (đồ thị có hướng) vào ma trận kề sau đó thực hiện in số bậc ra, bậc vào của các đỉnh trong đồ thị
-![[buoi1_2.png]]
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi1_2.png">
 
 ### Lựa Chọn 3
 - Đọc dữ liệu trong `Bai_03.txt` vào danh sách kề sau đó thực hiện in ra số bậc của các đỉnh trong đồ thị
-![[buoi1_3.png]]
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi1_3.png">
 
 ### Lựa Chọn 4
 - Đọc dữ liệu trong `Bai_04.txt` vào danh sách cạnh sau đó thực hiện in ra số bậc của các đỉnh trong đồ thị
-![[buoi1_4.png]]
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi1_4.png">
 
 
 
