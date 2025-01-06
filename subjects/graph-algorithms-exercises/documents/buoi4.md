@@ -36,11 +36,17 @@
 
 ## Menu Chức Năng
 - Hãy xây dựng menu như hình bên dưới
-![[buoi5_0.png]]
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi5_0.png">
 
 ### Lựa Chọn 1
 - Kết quả lựa chọn 1
-![[buoi5_1.png]]
+
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi5_1.png">
+
 ### Lựa Chọn 2
 - Kết quả lựa chọn 2
-![[buoi5_2.png]]
+
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi5_2.png">
