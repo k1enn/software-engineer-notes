@@ -32,22 +32,35 @@
 - `RemoveEdgeX(int x)`: Xoá cạnh kề với đỉnh x
 
 ## Menu Chức Năng
-![[buoi3_0.png]]
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi3_0.png">
+
 ### Lựa Chọn 1
 - Kết quả lựa chọn 1
-![[buoi3_1.png]]
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi3_1.png">
+
 ### Lựa Chọn 2
 - Kết quả lựa chọn 2
-![[buoi3_2.png]]
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi3_2.png">
+
 ### Lựa Chọn 3
 - Kết quả lựa chọn 3
-![[buoi3_3.png]]
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi3_3.png">
+
 ### Lựa Chọn 4
 - Kết quả lựa chọn 4
-![[buoi3_4.png]]
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi3_4.png">
+
 ### Lựa Chọn 5
 - Kết quả lựa chọn 5
-![[buoi3_5.png]]
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi3_5.png">
+
 ### Lựa Chọn 6
 - Kết quả lựa chọn 6
-![[buoi3_6.png]]
+
+<img src="https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/documents/images/buoi3_6.png">
