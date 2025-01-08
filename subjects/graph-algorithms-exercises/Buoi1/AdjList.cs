@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+// Thằng nào tên Nghị đừng có copy code nữa, lo học đi
 namespace github_k1enn
 {
     internal class AdjList
