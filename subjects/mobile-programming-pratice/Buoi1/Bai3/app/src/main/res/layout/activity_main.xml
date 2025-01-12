@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/inputA"
+        android:layout_width="357dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="328dp"
+        android:hint="Input number A here"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <EditText
+        android:id="@+id/txtResult"
+        style="@android:style/Widget.TextView"
+        android:layout_width="359dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="261dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/inputA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/div"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="254dp"
+        android:background="@drawable/button_background"
+        android:outlineProvider="background"
+        android:text="Chia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/multi"
+        app:layout_constraintTop_toBottomOf="@+id/inputB" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="254dp"
+        android:background="@drawable/button_background"
+        android:text="Cộng"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sub"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputB" />
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="254dp"
+        android:background="@drawable/button_background"
+        android:text="Trừ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/multi"
+        app:layout_constraintStart_toEndOf="@+id/add"
+        app:layout_constraintTop_toBottomOf="@+id/inputB" />
+
+    <Button
+        android:id="@+id/multi"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="254dp"
+        android:background="@drawable/button_background"
+        android:outlineProvider="none"
+        android:text="Nhân"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/div"
+        app:layout_constraintStart_toEndOf="@+id/sub"
+        app:layout_constraintTop_toBottomOf="@+id/inputB" />
+
+    <EditText
+        android:id="@+id/inputB"
+        android:layout_width="357dp"
+        android:layout_height="64dp"
+        android:hint="Input number B here"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputA"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <!-- Buttons aligned in one row below inputB -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
