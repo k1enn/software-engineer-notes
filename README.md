@@ -18,12 +18,16 @@ Ghi chú và tài liệu tất cả các môn liên quan trong 4 năm học HUFL
 </div>
 
 ## Các môn học
-- [data-structures-and-algorithms-exercises](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/data-structures-and-algorithms-exercises/practice-DSA.md)
+
 - [programming-fundamental](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/programming-fundamental/programming-fundamental.md)
-- [web-programming](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/web-programming/web-programming.md)
+- [data-structures-and-algorithms-exercises](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/data-structures-and-algorithms-exercises/practice-DSA.md)
+- [graph-algorithms-exercises](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/pratice-graph-algorithms.md)
 - [operating-system](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/operating-system/operating-system.md)
 - [computer-networking](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/computer-networking)
-- [graph-algorithms-exercises](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/pratice-graph-algorithms.md)
+- [web-programming](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/web-programming/web-programming.md)
+- [mobile-programming](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/mobile-programming-pratice/pratice-mobile-programming.md)
+
+
 
 ---
 
