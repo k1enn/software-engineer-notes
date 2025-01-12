@@ -4,7 +4,11 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-// Thằng nào tên Nghị đừng có copy code nữa, lo học đi
+
+// Tài liệu nhằm mục đích làm tài liệu tham khảo hoặc hỗ trợ học tập. Sinh viên nên sử dụng 
+// những tài liệu này để nâng cao sự hiểu biết của mình, 
+// nhưng không nên sao chép trực tiếp hoặc nộp các lời giải này để tính điểm học tập.
+
 namespace github_k1enn
 {
     internal class AdjMatrix

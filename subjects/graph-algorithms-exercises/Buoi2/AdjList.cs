@@ -4,39 +4,52 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-// Thằng nào tên Nghị đừng có copy code nữa, lo học đi
 
 // Tài liệu nhằm mục đích làm tài liệu tham khảo hoặc hỗ trợ học tập. Sinh viên nên sử dụng 
 // những tài liệu này để nâng cao sự hiểu biết của mình, 
-// nhưng không nên sao chép trực tiếp hoặc nộp các lời giải này để tính điểm học tập.
+//nhưng không nên sao chép trực tiếp hoặc nộp các lời giải này để tính điểm học tập.
 
 namespace github_k1enn
 {
     internal class AdjList
     {
-        LinkedList<int>[] vertices;
-        int numberOfVertices;  // Số đỉnh
+        private LinkedList<int>[] vertices;
+        private int numberOfVertices;  // Số đỉnh
 
         // Properties
-        public int N { get => numberOfVertices; set => numberOfVertices = value; }
-        public LinkedList<int>[] V
+        public int NumberOfVertices 
+        { 
+            get => numberOfVertices; 
+            set => numberOfVertices = value; 
+        }
+
+        public LinkedList<int>[] Vertices
         {
             get { return vertices; }
             set { vertices = value; }
         }
 
         // Constructor
-        public AdjList() { }
+        public AdjList() 
+        {
+            Vertices = new LinkedList<int>[0]; 
+        }
 
         public AdjList(int k)   // Khởi tạo vertices có k đỉnh
         {
-            vertices = new LinkedList<int>[k];
+            NumberOfVertices = k;
+            Vertices = new LinkedList<int>[k];
+            for (int i = 0; i < k; i++)
+            {
+                Vertices[i] = new LinkedList<int>(); // Initialize each LinkedList
+            }
         }
 
         // Copy g --> đồ thị hiện tại vertices
         public AdjList(LinkedList<int>[] g)
         {
-            vertices = g;
+            Vertices = g;
+            NumberOfVertices = g.Length; // Set number of vertices based on the input array
         }
 
         // Đọc file AdjList.txt --> danh sách kề vertices
@@ -44,12 +57,12 @@ namespace github_k1enn
         {
             using (StreamReader sr = new StreamReader(filePath))
             {
-                numberOfVertices = int.Parse(sr.ReadLine());
-                vertices = new LinkedList<int>[numberOfVertices];
+                NumberOfVertices = int.Parse(sr.ReadLine());
+                Vertices = new LinkedList<int>[NumberOfVertices];
 
-                for (int i = 0; i < numberOfVertices; i++)
+                for (int i = 0; i < NumberOfVertices; i++)
                 {
-                    vertices[i] = new LinkedList<int>();
+                    Vertices[i] = new LinkedList<int>(); 
                     string line = sr.ReadLine();
 
                     // Đặt điều kiện không phải đỉnh cô lập
@@ -59,21 +72,39 @@ namespace github_k1enn
                         foreach (var item in items)
                         {
                             int vertex = int.Parse(item);
-                            vertices[i].AddLast(vertex);
+                            Vertices[i].AddLast(vertex);
                         }
                     }
                 }
             }
         }
 
+        public EdgeList AdjListToEdgeList()
+        {
+            EdgeList edgeList = new EdgeList(NumberOfVertices);
+
+            for (int i = 0; i < NumberOfVertices; i++)
+            {
+                foreach (int node in Vertices[i])
+                {
+                    if (i < node)
+                    {
+                        edgeList.Edges.AddLast(new Tuple<int, int>(i, node));
+                    }
+                }
+            }
+
+            return edgeList;
+        }
+
         // Xuất đồ thị
         public void Output()
         {
-            Console.WriteLine("Đồ thị danh sách kề - số đỉnh: " + numberOfVertices);
-            for (int i = 0; i < vertices.Length; i++)
+            Console.WriteLine("Đồ thị danh sách kề - số đỉnh: " + NumberOfVertices);
+            for (int i = 0; i < Vertices.Length; i++)
             {
                 Console.Write("   Đỉnh {0} ->", i);
-                foreach (int vertex in vertices[i])
+                foreach (int vertex in Vertices[i])
                     Console.Write("{0, 3}", vertex);
                 Console.WriteLine();
             }
@@ -84,9 +115,9 @@ namespace github_k1enn
             Console.WriteLine("Bậc của các đỉnh:");
             /* Duyệt qua mỗi đỉnh
              Tại mỗi đỉnh tính bậc bằng phương thức Count của LinkedList */
-            for (int i = 0; i < vertices.Length; i++)
+            for (int i = 0; i < Vertices.Length; i++)
             {
-                int count = vertices[i].Count();
+                int count = Vertices[i].Count();
                 Console.WriteLine($"deg({i}): {count}");
             }
         }
