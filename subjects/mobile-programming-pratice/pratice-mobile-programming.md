@@ -33,10 +33,11 @@ Các buổi học này được sử dụng, biên soạn dựa trên giáo trì
             <td style="border: 1px solid black; padding: 8px;">1</td>
             <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/tree/main/subjects/mobile-programming-pratice/Buoi1" style="text-decoration: none;">Activites & Views</a></td>            
         </tr>
-        <!--<tr>
+        <tr>
             <td style="border: 1px solid black; padding: 8px;">2</td>
-            <td style="border: 1px solid black; padding: 8px;"><a href="" style="text-decoration: none;"></a></td>            
+            <td style="border: 1px solid black; padding: 8px;"><a href="https://github.com/k1enn/software-engineer-notes/tree/main/subjects/mobile-programming-pratice/Buoi2" style="text-decoration: none;">Activites & Intent</a></td>            
         </tr>
+        <!--
         <tr>
             <td style="border: 1px solid black; padding: 8px;">3</td>
             <td style="border: 1px solid black; padding: 8px;"><a href="" style="text-decoration: none;"></a></td>            
