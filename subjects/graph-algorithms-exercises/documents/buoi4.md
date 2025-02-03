@@ -29,7 +29,7 @@
 - `OutConnected()`: Xuất các thành phần liên thông
 - `RemoveEdgeXY(int x, int y)`: Xoá cạnh XY
 - `RemoveEdgeX(int x)`: Xoá cạnh kề với đỉnh x
-**Thêm vào:**
+**Thêm vào (Optional):**
 - `DFSWithRecursive(int s)`: Duyệt đồ thị theo DFS dùng đệ quy
 - `TraverseDFS(int s)`: In các đỉnh kề với s sau khi duyệt DFS
 - `DFSwithStack(int s)`: Duyệt đồ thị theo DFS dùng stack

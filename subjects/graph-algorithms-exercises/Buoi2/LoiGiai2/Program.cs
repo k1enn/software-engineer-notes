@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _23DH111757
+namespace github_k1enn
 {
     internal class Program
     {
