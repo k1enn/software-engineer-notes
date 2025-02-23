@@ -6,10 +6,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// Ai tên DHHN đừng copy code nha, mãi yêu 
+
 namespace _23DH111757
-{
+{ 
     internal class AdjList
-    {
+    { 
         private bool[] visited;
         int[] index;        // Dùng đánh dấu các TPLT
         int inconnect;      // Dùng đếm số TPLT, và thêm propeties
