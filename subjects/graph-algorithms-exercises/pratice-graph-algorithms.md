@@ -18,6 +18,9 @@
       <small> December, 2024</small>
 </div>
 
+## [Tóm tắt sơ bộ về lí thuyết - Bấm vào đây](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/graph-algorithms-exercises/summary.md)
+
+
 ## Các buổi học
 
 Các buổi học này được biên soạn dựa trên giáo trình và chương trình của Thầy Tôn Quang Toại, với mục đích chia sẻ kiến thức. Nếu bạn phát hiện bất kỳ sai sót nào, dù là về nội dung hay trình bày, rất mong nhận được sự góp ý từ bạn.
