@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">buoi4_share_preference</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="error_field_required">Email không được rỗng</string>
+    <string name="error_invalid_email">Email không đúng định dạng</string>
+    <string name="error_invalid_password">Mật khẩu phải ít nhất 8 kí tự</string>
+</resources>
