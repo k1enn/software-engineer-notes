@@ -25,7 +25,7 @@ Các buổi học này được chép tay lại từ những buổi học môn H
 ## PDF [ở đây](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/operating-system/operating-system.pdf)
 ### Thông Báo Pháp Lý
 
-Kho lưu trữ này được tạo ra với mục đích giáo dục. Nó chứa các kết quả và lời giải liên quan đến Nhập môn Lập trình dành cho sinh viên HUFLIT. Xin lưu ý các điểm sau:
+Kho lưu trữ này được tạo ra với mục đích giáo dục. Nó chứa các kết quả và lời giải liên quan đến môn Hệ điều hành dành cho sinh viên HUFLIT. Xin lưu ý các điểm sau:
 
 - **Trung Thực Học Thuật**: Nội dung của kho lưu trữ này nhằm mục đích làm tài liệu tham khảo hoặc hỗ trợ học tập. Sinh viên nên sử dụng những tài liệu này để nâng cao sự hiểu biết của mình, nhưng không nên sao chép trực tiếp hoặc nộp các lời giải này để tính điểm học tập.
 - **Không Đảm Bảo Độ Chính Xác**: Dù đã cố gắng để đảm bảo tính chính xác của nội dung, có thể vẫn tồn tại lỗi. Người dùng nên kiểm tra và đối chiếu lời giải trước khi sử dụng trong học tập hoặc công việc chuyên môn.
