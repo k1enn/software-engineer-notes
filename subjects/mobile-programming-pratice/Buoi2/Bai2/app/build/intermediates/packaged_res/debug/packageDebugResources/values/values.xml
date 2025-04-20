@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Buoi3_LiThuyet</string>
+    <style name="Base.Theme.Buoi3_LiThuyet" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Buoi3_LiThuyet" parent="Base.Theme.Buoi3_LiThuyet"/>
+</resources>

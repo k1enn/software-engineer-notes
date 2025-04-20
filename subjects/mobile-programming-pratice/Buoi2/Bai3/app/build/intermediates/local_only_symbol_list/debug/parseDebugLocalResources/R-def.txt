@@ -1,0 +1,21 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnStartActivity
+id edtAge
+id edtName
+id main
+id main2
+id tvResultFromBundle
+layout activity_one
+layout activity_two
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Buoi3_LiThuyet
+style Theme.Buoi3_LiThuyet
+xml backup_rules
+xml data_extraction_rules

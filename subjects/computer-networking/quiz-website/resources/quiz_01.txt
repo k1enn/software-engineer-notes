@@ -1,0 +1,1049 @@
+1.Subnet mask mặc định của địa chỉ IP lớp B là gì?
+
+a.
+255.255.0.0
+
+b.
+255.255.255.0
+
+c.
+255.0.0.0
+
+d.
+255.255.255.255
+
+2.Giao thức mã hóa an toàn nhất trên chuẩn Wi-Fi hiện nay
+
+a.
+WPA
+
+b.
+WPA2 Enterprise
+
+c.
+WPA2 Personal
+
+d.
+WEP
+
+3.Địa chỉ IP nào sau đây là địa chỉ broadcast của mạng 192.168.10.0/24?
+
+a.
+192.168.10.0
+
+b.
+192.168.10.254
+
+c.
+192.168.10.255
+
+d.
+192.168.10.1
+
+4.Giao thức để tìm địa chỉ IP khi biết địa chỉ MAC của máy tính?
+
+a.
+TCP
+
+b.
+RARP
+
+c.
+ARP
+
+d.
+DHCP
+
+5.Địa chỉ IP nào sau đây thuộc lớp B?
+
+a.
+172.16.0.1
+
+b.
+127.0.0.1
+
+c.
+192.168.1.1
+
+d.
+10.0.0.1
+
+6.Số cổng nào sau đây thường được sử dụng cho máy chủ web HTTP?
+
+a.
+110
+
+b.
+80
+
+c.
+25
+
+d.
+443
+
+7.Mục đích của giao thức định tuyến là gì?
+
+a.
+Tìm đường đi tốt nhất cho các gói tin
+
+b.
+Cung cấp địa chỉ IP
+
+c.
+Chuyển tiếp các gói tin
+
+d.
+Kiểm soát tắc nghẽn
+
+8.Một mạng con lớp A mượn 22 bits để chia subnet thì Subnet Mask là:
+
+a.
+255.255.248.252
+
+b.
+255.255.252.0
+
+c.
+255.255.255.252
+
+d.
+255.255.224.0
+
+9.Dịch vụ nào cho phép người sử dụng từ một trạm làm việc của mình có thể đăng nhập vào một trạm ở xa qua mạng và có thể làm việc với hệ thống:
+
+a.
+SMTP
+
+b.
+Telnet
+
+c.
+DHCP
+
+d.
+DNS
+
+10.Phương tiện truyền dẫn nào sử dụng sợi thủy tinh để truyền tín hiệu?
+
+a.
+Cáp xoắn đôi
+
+b.
+Cáp đồng trục
+
+c.
+Sóng radio
+
+d.
+Cáp quang
+
+11.Dịch vụ mạng SMTP dùng để?
+
+a.
+Phân giải tên và địa chỉ IP
+
+b.
+Cấp địa chỉ IP cho máy trạm
+
+c.
+Nhận thư điện tử
+
+d.
+Gửi thư điện tử
+
+12.Byte đầu tiên của một địa chỉ IP có dạng 10110111. Vậy nó thuộc lớp nào?
+
+a.
+Lớp A
+
+b.
+Lớp B
+
+c.
+Lớp C
+
+d.
+Lớp D
+
+13.Cho địa chỉ IP 172.16.5.10/16, địa chỉ broadcast của mạng con này là gì?
+
+a.
+172.0.0.0
+
+b.
+172.16.0.0
+
+c.
+172.16.5.255
+
+d.
+172.16.255.255
+
+14.Thuật toán định tuyến nào yêu cầu tất cả các router phải biết toàn bộ thông tin về mạng?
+
+a.
+Không có thuật toán nào
+
+b.
+Link-state
+
+c.
+Distance-vector
+
+d.
+Cả hai
+
+15.Trong gói tin TCP. Phần Header có độ dài bao nhiêu?
+
+a.
+20 bytes
+
+b.
+32 bytes
+
+c.
+32 bits
+
+d.
+20 bits
+
+16.Trong một gói tin IP (IP packet). Phần Header có chứa địa chỉ nào?
+
+a.
+Source address và destination address
+
+b.
+Source address
+
+c.
+Destination address
+
+d.
+Không chứa địa chỉ nào cả
+
+17.Một mạng máy tính mà ở đó các thiết bị truyền thông không dây trực tiếp không thông qua thiết bị trung gian gọi là mạng?
+
+a.
+WPAN
+
+b.
+Ad-hoc
+
+c.
+LAN
+
+d.
+WLAN
+
+18.Địa chỉ được Switch sử dụng khi quyết định gửi data sang cổng (port) nào?
+
+a.
+Source MAC address
+
+b.
+Network address
+
+c.
+Broadcast address
+
+d.
+Destination MAC address
+
+19.Chọn câu SAI
+
+a.
+HTTP là giao thức sử dụng TCP
+
+b.
+FTP là giao thức truyền tải file
+
+c.
+IMAP là giao thức điều khiển kênh truyền
+
+d.
+DNS sử dụng UDP ở cổng 53
+
+20.Giao thức FTP hoạt động trên cổng mặc định nào?
+
+a.
+22
+
+b.
+21
+
+c.
+23
+
+d.
+Không đáp án nào đúng
+
+21.Subnet mask nào sau đây chia mạng thành các mạng con có 62 host khả dụng?
+
+a.
+/27
+
+b.
+/25
+
+c.
+/26
+
+d.
+/28
+
+22.Kỹ thuật nào cho phép truyền nhiều tín hiệu trên một sợi cáp bằng cách sử dụng các tần số khác nhau?
+
+a.
+Ghép kênh phân chia theo tần số (FDM)
+
+b.
+Chuyển mạch gói
+
+c.
+Chuyển mạch kênh
+
+d.
+Ghép kênh phân chia theo thời gian (TDM)
+
+23.OSPF là một ví dụ của giao thức định tuyến nào?
+
+a.
+Không có giao thức nào
+
+b.
+Path-vector
+
+c.
+Distance-vector
+
+d.
+Link-state
+
+24.Web cache còn được gọi là gì?
+
+a.
+Máy chủ gốc
+
+b.
+Máy chủ proxy
+
+c.
+CDN
+
+d.
+Bộ cân bằng tải
+
+25.Trong gói tin IP Header thì trường nào chỉ rõ vị trí đoạn phân mảnh trong IP Datagram?
+
+a.
+Header checksum
+
+b.
+Fragment offset
+
+c.
+Flags
+
+d.
+TTL
+
+26.CDN là viết tắt của cụm từ nào?
+
+a.
+Content Distribution Network
+
+b.
+Content Delivery Network
+
+c.
+Không có đáp án nào đúng
+
+d.
+cả A và B
+
+27.Cho địa chỉ IP 192.168.1.10/24, địa chỉ host cuối cùng trong mạng con này là gì?
+
+a.
+192.168.1.1
+
+b.
+192.168.1.0
+
+c.
+192.168.1.254
+
+d.
+192.168.1.255
+
+28.Độ trễ nào sau đây KHÔNG phải là một loại độ trễ của gói tin?
+
+a.
+Độ trễ xử lý
+
+b.
+Độ trễ giao thức
+
+c.
+Độ trễ truyền
+
+d.
+Độ trễ hàng đợi
+
+29.Địa chỉ IP 192.168.1.1/24 thuộc lớp nào?
+
+a.
+Lớp D
+
+b.
+Lớp B
+
+c.
+Lớp C
+
+d.
+Lớp A
+
+30.Chức năng chính của tường lửa là gì?
+
+a.
+Phát hiện xâm nhập
+
+b.
+Mã hóa dữ liệu
+
+c.
+Ngăn chặn truy cập trái phép vào mạng
+
+d.
+Tăng tốc độ truyền dữ liệu
+
+31.Giao thức nào sau đây được sử dụng để truy xuất email từ máy chủ?
+
+a.
+SMTP
+
+b.
+POP3
+
+c.
+IMAP
+
+d.
+Cả B và C
+
+32.Đâu là một chức năng của Network core?
+
+a.
+Định tuyến
+
+b.
+Kiểm soát lỗi
+
+c.
+Truyền dữ liệu
+
+d.
+Mã hóa dữ liệu
+
+33.Giao thức nào sau đây KHÔNG thuộc tầng ứng dụng?
+
+a.
+SMTP
+
+b.
+TCP
+
+c.
+HTTP
+
+d.
+DNS
+
+34.Trong mô hình OSI, tầng nào cung cấp phương tiện truyền thông qua các mạng logic?
+
+a.
+Network
+
+b.
+Presentation
+
+c.
+Session
+
+d.
+Physical
+
+35.Các thành phần của định tuyến?
+
+a.
+Độ trễ của đường truyền, xử lý nhiễu, bảng định tuyến
+
+b.
+Tất cả đều sai
+
+c.
+Bảng định tuyến, kỹ thuật truyền dẫn, băng thông
+
+d.
+Giao thức định tuyến, bảng định tuyến, chi phí (trọng số)
+
+36.Thiết bị nào sau đây hoạt động ở tầng Datalink?
+
+a.
+Máy chủ
+
+b.
+Hub
+
+c.
+Router
+
+d.
+Switch
+
+37.Khi sử dụng lệnh PING tới một server và nhận được kết quả Request time out. Có thể kết luận điều gì?
+
+a.
+Client không có kết nối mạng
+
+b.
+Server bị shutdown
+
+c.
+Server bị shutdown, Server chặn giao thức ICMP đúng
+
+d.
+Server chặn giao thức ICMP
+
+38.Cho địa chỉ IP: 172.16.30.122 và SubnetMask: 255.255.224.0. Địa chỉ đường mạng (Net Address) là?
+
+a.
+172.16.0.0/19
+
+b.
+Tất cả đều sai
+
+c.
+172.16.30.0/19
+
+d.
+172.16.30.0/19
+
+39.Cho địa chỉ IP: 62.221.16.202/25. Địa chỉ đường mạng là?
+
+a.
+62.221.16.0/25
+
+b.
+62.221.0.0/25
+
+c.
+62.221.16.128/25
+
+d.
+62.0.0.0/25
+
+40.Trong kiến trúc mạng Internet thì Router thuộc thành phần nào?
+
+a.
+Tất cả đều đúng
+
+b.
+Access link
+
+c.
+Network edge
+
+d.
+Network core
+
+41.Địa chỉ IPv4 được chuyển đổi từ IPv6: ::AC10:AC0C
+
+a.
+172.16.172.12
+
+b.
+172.16.1.12
+
+c.
+172.172.16.16
+
+d.
+172.16.16.1
+
+42.Giao thức nào sau đây được sử dụng để truyền tải dữ liệu web?
+
+a.
+SMTP
+
+b.
+DNS
+
+c.
+HTTP
+
+d.
+FTP
+
+43.Dịch vụ DNS sử dụng:
+
+a.
+UDP
+
+b.
+TCP
+
+c.
+HTTP
+
+d.
+Cả TCP và UDP
+
+44.Địa chỉ IP 10.0.0.1/24 có bao nhiêu địa chỉ IP khả dụng cho host?
+
+a.
+256
+
+b.
+254
+
+c.
+253
+
+d.
+255
+
+45.Hình thức tấn công mạng nào mà kẻ tấn công giả mạo địa chỉ IP nguồn?
+
+a.
+Nghe lén gói tin
+
+b.
+IP spoofing
+
+c.
+Tấn công phát lại
+
+d.
+Từ chối dịch vụ (DoS)
+
+46.Trong số các cặp giao thức và cổng dịch vụ sau, cặp nào là đúng:
+
+a.
+SMTP:TCP Port 21
+
+b.
+FTP:UDP Port 53
+
+c.
+HTTP:TCP Port 80
+
+d.
+Telnet:UDP Port 23
+
+47.TLS cung cấp dịch vụ bảo mật nào cho TCP?
+
+a.
+Tính bảo mật
+
+b.
+Tất cả các phương án trên
+
+c.
+Tính toàn vẹn của dữ liệu
+
+d.
+Xác thực
+
+48.Giao thức nào được sử dụng để phân giải tên miền thành địa chỉ IP?
+
+a.
+TCP
+
+b.
+DNS
+
+c.
+HTTP
+
+d.
+SMTP
+
+49.Địa chỉ IP 10.1.1.1 thuộc đường mạng nào khi có subnet mask 255.255.0.0?
+
+a.
+10.0.0.0
+
+b.
+10.1.1.1
+
+c.
+10.1.0.0
+
+d.
+10.1.1.0
+
+50.Dịch vụ nào có chức năng cấp phát địa chỉ IP động cho client
+
+a.
+HTTP
+
+b.
+DHCP
+
+c.
+IMAP
+
+d.
+DNS
+
+51.Cho địa chỉ IP 192.168.1.10/24, địa chỉ host đầu tiên trong mạng con này là gì?
+
+a.
+192.168.1.255
+
+b.
+192.168.1.0
+
+c.
+192.168.1.254
+
+d.
+192.168.1.1
+
+52.Phát biểu nào sau đây là ĐÚNG
+
+a.
+SMTP sử dụng TCP ở cổng 80
+
+b.
+Thiết bị Switch hoạt động tại tầng vật lý
+
+c.
+DNS sử dụng TCP ở cổng 55
+
+d.
+UDP là giao thức hoạt động ở tầng Transport
+
+53.Đơn vị đo tốc độ truyền dữ liệu là gì?
+
+a.
+Packet
+
+b.
+Byte
+
+c.
+Bits trên giây (bps)
+
+d.
+Hertz
+
+54.Công ty cần chia một đường mạng lớn thành 30 đường mạng nhỏ hơn. Số bit trong phần Host ID cần sử dụng là?
+
+a.
+4
+
+b.
+3
+
+c.
+1
+
+d.
+5
+
+55.Địa chỉ mạng của IP 172.16.5.10/16 là gì?
+
+a.
+172.16.5.10
+
+b.
+172.16.5.0
+
+c.
+172.0.0.0
+
+d.
+172.16.0.0
+
+56.Công nghệ mạng di động nào cung cấp tốc độ truyền dữ liệu cao nhất?
+
+a.
+Ethernet
+
+b.
+Bluetooth
+
+c.
+WiFi
+
+d.
+5G
+
+57.Kiến trúc ứng dụng nào cho phép các máy ngang hàng giao tiếp trực tiếp với nhau?
+
+a.
+Peer-to-peer (P2P)
+
+b.
+Không có kiến trúc nào
+
+c.
+Cả hai
+
+d.
+Client-server
+
+58.Gói tin có chiều dài L = 50 bytes. Đường truyền có băng thông R = 10Mbps. Độ trễ do tốc độ truyền (transmission delay) Dtrans là:
+
+a.
+50 * 8 / (10 * 10242) (s)
+
+b.
+0.1 (s)
+
+c.
+100 (s)
+
+d.
+50 * 8 / (10 * 1024) (s)
+
+59.Địa chỉ Broadcast của IP: 172.29.100.1/16
+
+a.
+172.29.255.255
+
+b.
+172.29.100.255
+
+c.
+172.29.255.1
+
+d.
+172.29.100.254
+
+60.Thiết bị nào sau đây hoạt động ở cả tầng vật lý và tầng liên kết dữ liệu?
+
+a.
+NIC
+
+b.
+Hub
+
+c.
+Router
+
+d.
+Switch
+
+61.Cookie được sử dụng để làm gì?
+
+a.
+Tăng tốc độ truyền dữ liệu
+
+b.
+Duy trì trạng thái người dùng
+
+c.
+Mã hóa dữ liệu
+
+d.
+Xác thực người dùng
+
+62.Để kết nối 2 thiết bị cùng loại. Ta sử dụng kiểu bấm cáp:
+
+a.
+Tất cả đều đúng
+
+b.
+Console
+
+c.
+Cáp thẳng
+
+d.
+Cáp chéo
+
+63.Công nghệ mạng LAN được sử dụng rộng rãi nhất hiện nay:
+
+a.
+FDDI
+
+b.
+Ethernet
+
+c.
+Token Ring
+
+d.
+ArcNet
+
+64.HTTP/2 cải tiến gì so với HTTP 1.1?
+
+a.
+Tất cả các phương án trên
+
+b.
+Hỗ trợ truyền video trực tuyến tốt hơn
+
+c.
+Tăng tính bảo mật
+
+d.
+Giảm độ trễ
+
+65.Subnet mask nào sau đây tương ứng với tiền tố /27?
+
+a.
+255.255.255.224
+
+b.
+255.255.255.128
+
+c.
+255.255.255.0
+
+d.
+255.255.255.240
+
+66.Host là gì?
+
+a.
+Thiết bị định tuyến
+
+b.
+Thiết bị đầu cuối chạy các ứng dụng mạng
+
+c.
+Giao thức mạng
+
+d.
+Phương tiện truyền dẫn vật lý
+
+67.Địa chỉ IPv6 gồm bao nhiêu bit?
+
+a.
+48
+
+b.
+32
+
+c.
+64
+
+d.
+128
+
+68.Địa chỉ IPv6 thu gọn được chuyển đổi từ IPv4: 113.161.88.223
+
+a.
+::A171:08DF
+
+b.
+::08AF:58D1
+
+c.
+:: 71A1:58DF
+
+d.
+::10A:38C2
+
+69.Phần nào của địa chỉ IP được sử dụng để xác định mạng?
+
+a.
+Phần host
+
+b.
+Phần subnet
+
+c.
+Không có phương án nào đúng
+
+d.
+Cả hai
+
+70.Router là thiết bị hoạt động ở tầng nào trong mô hình OSI?
+
+a.
+Application
+
+b.
+Physical
+
+c.
+Transport
+
+d.
+Network
+
+71.Thuật ngữ Round-trip time (RTT) có ý nghĩa gì?
+
+a.
+Thời gian để một gói tin được truyền đi và quay trở lại điểm bắt đầu
+
+b.
+Độ trễ tương đối khi một gói tin được truyền qua mạng ngang hàng
+
+c.
+Tất cả đều sai
+
+d.
+Thời gian mà một router xử lý gói tin và đưa vào buffer
+
+72.Độ dài của địa chỉ MAC?
+
+a.
+4 bits
+
+b.
+32 bits
+
+c.
+48 bits
+
+d.
+8 bits
+
+73.Địa chỉ 172.219.255.255 là địa chỉ gì?
+
+a.
+Host lớp B
+
+b.
+Broadcast lớp B
+
+c.
+Broadcast lớp A
+
+d.
+Tất cả đều sai
+
+74.Để nhận tin nhắn, tiến trình phải có cái gì?
+
+a.
+Định danh tiến trình
+
+b.
+Cả A và B
+
+c.
+Địa chỉ IP
+
+d.
+Số cổng
+
+75.Phương pháp chuyển mạch nào yêu cầu thiết lập kết nối trước khi truyền dữ liệu?
+
+a.
+Không có phương án nào đúng
+
+b.
+Cả hai
+
+c.
+Chuyển mạch gói
+
+d.
+Chuyển mạch kênh
