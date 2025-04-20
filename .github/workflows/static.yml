@@ -2,7 +2,7 @@ name: Deploy Static Website
 
 on:
   push:
-    branches: [ main ]
+    branches: ["main"]
     paths:
       - 'subjects/computer-networking/quiz-website/**'
 
