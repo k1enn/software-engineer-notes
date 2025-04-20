@@ -4,7 +4,7 @@ on:
   push:
     branches: ["main"]
     paths:
-      - 'subjects/computer-networking/quiz-website/**'
+      - 'subjects/computer-networking/quiz-website/index.html'
 
 permissions:
   contents: read
