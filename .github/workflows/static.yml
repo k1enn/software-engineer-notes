@@ -30,6 +30,9 @@ jobs:
         with:
           # Upload only the quiz website directory
           path: './subjects/computer-networking/quiz-website'
+      
+      - name: Download artifact
+        uses: actions/download-artifact@v4
           
       - name: Deploy to GitHub Pages
         id: deployment
