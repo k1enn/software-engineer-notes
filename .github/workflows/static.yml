@@ -5,7 +5,8 @@ on:
     branches: ["main"]
     paths:
       - 'subjects/computer-networking/quiz-website/index.html'
-
+  workflow_dispatch:
+  
 permissions:
   contents: read
   pages: write
