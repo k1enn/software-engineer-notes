@@ -1,101 +1,245 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Computer Networking Quiz</title>
+    <title>Trung Tâm Trắc Nghiệm Mạng Máy Tính</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <style>
+        .hero-section {
+            background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+            color: white;
+            padding: 6rem 0;
+            margin-bottom: 3rem;
+            border-radius: 0 0 20px 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .hero-title {
+            font-size: 3.2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+        
+        .hero-subtitle {
+            font-size: 1.3rem;
+            opacity: 0.9;
+            max-width: 700px;
+            margin: 0 auto 2rem auto;
+        }
+        
+        .card-quiz {
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            border: none;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .card-quiz:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .card-body {
+            padding: 1.8rem;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+        
+        .card-title {
+            font-weight: 700;
+            margin-bottom: 0.8rem;
+            font-size: 1.3rem;
+        }
+        
+        .quiz-meta {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+            color: #6c757d;
+            font-size: 0.95rem;
+        }
+        
+        .btn-start {
+            border-radius: 50px;
+            padding: 0.6rem 1.8rem;
+            font-weight: 600;
+            margin-top: auto;
+        }
+        
+        .feature-item {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            margin-bottom: 2rem;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+        
+        .feature-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            color: #0d6efd;
+            margin-bottom: 1rem;
+        }
+        
+        .footer {
+            background-color: #212529;
+            color: rgba(255, 255, 255, 0.7);
+            padding: 3rem 0;
+            margin-top: 5rem;
+        }
+        
+        .quiz-categories {
+            margin-bottom: 4rem;
+        }
+        
+        .statistics-section {
+            background-color: #f8f9fa;
+            padding: 4rem 0;
+            margin: 4rem 0;
+            border-radius: 20px;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 1.5rem;
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #0d6efd;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-label {
+            font-size: 1.1rem;
+            color: #6c757d;
+        }
+        
+        .card-text {
+            margin-bottom: 1.5rem;
+        }
+        
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 2.5rem;
+            }
+            
+            .hero-subtitle {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
 </head>
 <body>
-    <div class="container-fluid">
-        <header class="quiz-header text-center py-3">
-            <h1>Trắc Nghiệm Mạng Máy Tính</h1>
-            <p class="quiz-description">Các câu hỏi ở đây thuộc về thầy Đinh Xuân Lâm với mục đích làm ra web này để sinh viên ôn bài. </p>
-        </header>
-        
-        <div class="quiz-layout">
-            <!-- Question Navigation Map - Toggleable -->
-            <div class="map-container">
-                <button id="toggle-map" class="btn btn-primary d-block d-md-none w-100 mb-2">
-                    <i class="fas fa-map"></i> Toggle Questions Map
-                </button>
-                <div class="question-nav card" id="question-nav">
-                    <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
-                        <h5 class="mb-0">Questions Map</h5>
-                        <button class="btn btn-sm btn-outline-light" id="collapse-map">
-                            <i class="fas fa-chevron-left"></i>
-                        </button>
-                    </div>
-                    <div class="card-body p-2">
-                        <div id="questions-map" class="d-flex flex-wrap gap-1 justify-content-center">
-                            <!-- Will be filled with question buttons by JavaScript -->
+    <!-- Available Quizzes Section -->
+    <section class="container quiz-categories">
+        <h2 class="text-center mb-4" style="padding-top: 2rem">Các Bài Trắc Nghiệm Hiện Có</h2>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="card card-quiz">
+                    <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=2070&auto=format&fit=crop" class="card-img-top" alt="Mạng Máy Tính">
+                    <div class="card-body">
+                        <h5 class="card-title">Cơ Bản Về Mạng Máy Tính</h5>
+                        <div class="quiz-meta">
+                            <span><i class="fas fa-question-circle me-1"></i> 133 Câu Hỏi</span>
                         </div>
+                        <p class="card-text">Kiểm tra kiến thức của bạn về giao thức mạng, địa chỉ IP, chia mạng con và nhiều hơn nữa.</p>
+                        <a href="./computer-networking/computer-networking.html" class="btn btn-primary btn-start">Bắt Đầu</a>
                     </div>
                 </div>
             </div>
-            
-            <!-- Button to show map when collapsed -->
-            <button id="show-map-btn" class="show-map-btn btn btn-primary hide">
-                <i class="fas fa-map-marked-alt"></i>
-            </button>
-            
-            <!-- Main Quiz Content -->
-            <div class="quiz-main-content">
-                <div id="quiz" class="quiz-container card">
-                    <!-- Navigation controls moved to top -->
-                    <div class="card-header quiz-controls">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <button id="prev-btn" class="btn btn-primary">
-                                <i class="fas fa-arrow-left"></i> Previous
-                            </button>
-                            <div id="question-counter" class="badge bg-primary p-2">Question 1/75</div>
-                            <button id="next-btn" class="btn btn-primary">
-                                Next <i class="fas fa-arrow-right"></i>
-                            </button>
+            <div class="col-md-6 col-lg-4">
+                <div class="card card-quiz">
+                    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2034&auto=format&fit=crop" class="card-img-top" alt="Bảo Mật Mạng">
+                    <div class="card-body">
+                        <h5 class="card-title">Thuật Toán Đồ Thị</h5>
+                        <div class="quiz-meta">
+                            <span><i class="fas fa-question-circle me-1"></i> Sắp Ra Mắt</span>
                         </div>
+                        <p class="card-text">Thử thách bản thân với các câu hỏi về tường lửa, mã hóa, và giao thức bảo mật.</p>
+                        <a href="#" class="btn btn-secondary btn-start" disabled>Sắp Ra Mắt</a>
                     </div>
-                    
-                    <div class="card-body quiz-content">
-                        <h2 id="question" class="card-title mb-4">Question text</h2>
-                        <div class="choices-list">
-                            <div class="choice-container mb-3">
-                                <p class="choice-prefix">A</p>
-                                <p class="choice-text" data-choice="a">Choice 1</p>
-                            </div>
-                            <div class="choice-container mb-3">
-                                <p class="choice-prefix">B</p>
-                                <p class="choice-text" data-choice="b">Choice 2</p>
-                            </div>
-                            <div class="choice-container mb-3">
-                                <p class="choice-prefix">C</p>
-                                <p class="choice-text" data-choice="c">Choice 3</p>
-                            </div>
-                            <div class="choice-container mb-3">
-                                <p class="choice-prefix">D</p>
-                                <p class="choice-text" data-choice="d">Choice 4</p>
-                            </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card card-quiz">
+                    <img src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?q=80&w=2070&auto=format&fit=crop" class="card-img-top" alt="Luật và Cơ Sở Dữ Liệu">
+                    <div class="card-body">
+                        <h5 class="card-title">Pháp Luật Đại Cương</h5>
+                        <div class="quiz-meta">
+                            <span><i class="fas fa-question-circle me-1"></i> Sắp Ra Mắt</span>
+                          
                         </div>
-                        
-                        <div id="score-display" class="alert alert-primary text-center mt-4 hide">
-                            <i class="fas fa-award"></i> Score: <span id="score">0</span>/75
-                        </div>
-                        
-                        <button id="submit-btn" class="btn btn-success d-block mx-auto mt-4 mb-3 hide">
-                            <i class="fas fa-check-circle"></i> Submit Quiz
-                        </button>
-                        
-                        <div id="result" class="alert alert-info mt-2 hide"></div>
+                        <p class="card-text">Kiểm tra kiến thức của bạn về pháp luật đại cương.</p>
+                        <a href="./phap-luat-dai-cuong/phap-luat-dai-cuong.html" class="btn btn-primary btn-start">Bắt Đầu</a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Cách Thức Hoạt Động</h2>
+        <div class="row g-4 align-items-center">
+            <div class="col-md-6">
+                <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=2069&auto=format&fit=crop" class="img-fluid rounded-3 shadow" alt="Quy Trình Học Tập">
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex mb-4">
+                    <div class="me-3">
+                        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">1</div>
+                    </div>
+                    <div>
+                        <h4>Chọn Bài Trắc Nghiệm</h4>
+                        <p>Lựa chọn từ bộ sưu tập các bài trắc nghiệm mạng chuyên biệt để kiểm tra kiến thức của bạn trong các lĩnh vực cụ thể.</p>
+                    </div>
+                </div>
+                <div class="d-flex mb-4">
+                    <div class="me-3">
+                        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">2</div>
+                    </div>
+                    <div>
+                        <h4>Trả Lời Câu Hỏi</h4>
+                        <p>Duyệt qua các câu hỏi trắc nghiệm và chọn câu trả lời của bạn. Sử dụng bản đồ để theo dõi tiến độ của bạn.</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="me-3">
+                        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">3</div>
+                    </div>
+                    <div>
+                        <h4>Xem Kết Quả</h4>
+                        <p>Nhận phản hồi tức thì về hiệu suất của bạn với các giải thích chi tiết cho từng câu hỏi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="quiz.js"></script>
 </body>
-</html> 
+</html>
