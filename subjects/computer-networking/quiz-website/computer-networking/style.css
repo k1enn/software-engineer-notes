@@ -23,12 +23,6 @@ body {
     line-height: 1.6;
 }
 
-.container {
-    width: 100%;
-    max-width: 800px;
-    margin: 2rem auto;
-    padding: 1rem;
-}
 
 h1, h2, h3 {
     font-weight: 600;
@@ -87,7 +81,6 @@ h2 {
     display: flex;
     flex-direction: column;
     min-height: 100%;
-    width:700px;
     position: relative;
 }
 
@@ -266,7 +259,6 @@ i {
     margin: 0 auto;
 }
 
-
 .map-container {
     width: 280px;
     flex-shrink: 0;
@@ -276,7 +268,6 @@ i {
 
 .quiz-main-content {
     flex: 1;
-    width: 700px;
     margin: 0 auto;
     transition: all 0.3s ease;
     padding-bottom: 1.5rem;
@@ -285,6 +276,8 @@ i {
 /* Show map button */
 .show-map-btn {
     position: fixed;
+    top: 5rem;
+    right:20px;
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -362,6 +355,10 @@ i {
         padding: 0.2rem;
     }
     
+    .quiz-main-content {
+        padding: 0.1rem;
+        min-width: 360px;
+    }
     /* Map container styling */
     .map-container {
         width: 100%;
@@ -489,10 +486,7 @@ i {
         background-color: white;
         border-radius: 0 0 var(--border-radius) var(--border-radius);
     }
-    .container-fluid {
-        padding: 0.2rem;
-    }
-    
+   
     .quiz-header h1 {
         font-size: 1.5rem;
     }
