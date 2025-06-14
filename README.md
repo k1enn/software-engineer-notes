@@ -26,7 +26,7 @@ Ghi chú và tài liệu tất cả các môn liên quan trong 4 năm học HUFL
 - [computer-networking](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/computer-networking)
 - [web-programming](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/web-programming/web-programming.md)
 - [mobile-programming](https://github.com/k1enn/software-engineer-notes/blob/main/subjects/mobile-programming-pratice/pratice-mobile-programming.md)
-
+- [software-engineering](https://github.com/k1enn/software-engineer-notes/tree/main/subjects/software-engineering)
 
 
 ---
