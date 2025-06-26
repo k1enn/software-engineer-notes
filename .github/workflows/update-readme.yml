@@ -1,0 +1,32 @@
+name: Update README with latest commit date
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Update README with latest commit date
+      run: |
+        # Get the latest commit date and format it
+        LATEST_DATE=$(git log -1 --format="%B %Y" --date=format:"%B, %Y")
+        
+        # Replace the date in README.md
+        sed -i "s/<small>.*<\/small>/<small>$LATEST_DATE<\/small>/g" README.md
+
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add README.md
+        git diff --staged --quiet || git commit -m "Auto-update README with latest commit date"
+        git push
