@@ -15,6 +15,57 @@ jobs:
         fetch-depth: 0
         token: ${{ secrets.GITHUB_TOKEN }}
 
+    - name: Update README with Python
+      run: |
+        python3 << 'EOF'
+        import subprocess
+        import re
+        from datetime import datetime
+
+        # Get latest commit date
+        result = subprocess.run(['git', 'log', '-1', '--date=format:%B, %Y', '--format=%cd'], 
+                              capture_output=True, text=True)
+        latest_date = result.stdout.strip()
+        print(f"Latest date: {latest_date}")
+
+        # Read and update README
+        with open('README.md', 'r', encoding='utf-8') as f:
+            content = f.read()
+
+        # Replace the date using regex
+        updated_content = re.sub(r'<small>.*?</small>', f'<small>{latest_date}</small>', content)
+
+        # Write back to file
+        with open('README.md', 'w', encoding='utf-8') as f:
+            f.write(updated_content)
+
+        print("README updated successfully")
+        EOF
+
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add README.md
+        git diff --staged --quiet || git commit -m "Auto-update README with latest commit date"
+        git push
+name: Update README with latest commit date
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
+
     - name: Update README with latest commit date
       run: |
         # Get the latest commit date and format it
