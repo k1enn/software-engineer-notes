@@ -1,0 +1,119 @@
+@model IEnumerable<b2.Models.GuestResponse>
+@{
+    ViewData["Title"] = "Danh sách người tham dự";
+}
+
+<div class="container">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h1 class="display-4 text-center mb-4">
+                <i class="bi bi-people-fill me-2"></i>Danh Sách Người Tham Dự
+            </h1>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-md-6 offset-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Lọc theo khóa học</h5>
+                    <form method="get" asp-action="ListResponses" class="d-flex">
+                        <select name="course" class="form-select me-2" onchange="this.form.submit()">
+                            <option value="">-- Tất cả khóa học --</option>
+                            @foreach (var course in ViewBag.Courses)
+                            {
+                                <option value="@course" selected="@(ViewBag.SelectedCourse == course)">@course</option>
+                            }
+                        </select>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="bi bi-funnel"></i> Lọc
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @if (Model.Any())
+    {
+        <div class="row">
+            <div class="col-12">
+                <div class="card shadow">
+                    <div class="card-header bg-success text-white">
+                        <h4 class="mb-0">
+                            <i class="bi bi-check-circle me-2"></i>
+                            Danh sách xác nhận tham dự
+                            @if (!string.IsNullOrEmpty(ViewBag.SelectedCourse))
+                            {
+                                <span class="badge bg-light text-dark ms-2">Khóa @ViewBag.SelectedCourse</span>
+                            }
+                            <span class="badge bg-light text-dark float-end">Tổng: @Model.Count() người</span>
+                        </h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-hover table-striped">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Họ tên</th>
+                                        <th scope="col">Email</th>
+                                        <th scope="col">Số điện thoại</th>
+                                        <th scope="col">Khóa học</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @{
+                                        int index = 1;
+                                    }
+                                    @foreach (var guest in Model)
+                                    {
+                                        <tr>
+                                            <th scope="row">@index</th>
+                                            <td>@guest.Name</td>
+                                            <td>
+                                                <a href="mailto:@guest.Email">@guest.Email</a>
+                                            </td>
+                                            <td>@guest.Phone</td>
+                                            <td>
+                                                <span class="badge bg-primary">@guest.Course</span>
+                                            </td>
+                                        </tr>
+                                        index++;
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="alert alert-info text-center" role="alert">
+                    <i class="bi bi-info-circle fs-1 d-block mb-3"></i>
+                    <h4 class="alert-heading">Chưa có người đăng ký tham dự!</h4>
+                    <p>Hiện tại chưa có ai xác nhận tham dự buổi họp mặt.</p>
+                    @if (!string.IsNullOrEmpty(ViewBag.SelectedCourse))
+                    {
+                        <p>Khóa học đã chọn: <strong>@ViewBag.SelectedCourse</strong></p>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+
+    <div class="row mt-4">
+        <div class="col-12 text-center">
+            <a asp-action="Index" class="btn btn-secondary btn-lg me-2">
+                <i class="bi bi-house me-2"></i>Về trang chủ
+            </a>
+            <a asp-action="RsvpForm" class="btn btn-primary btn-lg">
+                <i class="bi bi-pencil-square me-2"></i>Đăng ký tham dự
+            </a>
+        </div>
+    </div>
+</div>

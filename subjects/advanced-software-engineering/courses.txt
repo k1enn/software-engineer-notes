@@ -1,0 +1,4 @@
+TypeScript:
+Crash Course: https://www.youtube.com/watch?v=ZvZ7gvcmPmI
+Docs: https://www.typescriptlang.org/docs/
+

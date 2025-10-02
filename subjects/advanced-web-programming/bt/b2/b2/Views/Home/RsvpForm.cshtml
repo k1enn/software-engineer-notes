@@ -1,0 +1,87 @@
+@model b2.Models.GuestResponse
+@{
+    ViewData["Title"] = "Đăng Ký Tham Dự";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow">
+            <div class="card-header bg-primary text-white">
+                <h2 class="mb-0 text-center">Đăng Ký Tham Dự Họp Mặt Cựu Sinh Viên</h2>
+            </div>
+            <div class="card-body">
+                <form asp-action="RsvpForm" method="post">
+                    <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+                    <div class="mb-3">
+                        <label asp-for="Name" class="form-label"></label>
+                        <input asp-for="Name" class="form-control" placeholder="Nhập họ và tên của bạn" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Email" class="form-label"></label>
+                        <input asp-for="Email" class="form-control" type="email" placeholder="example@email.com" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Phone" class="form-label"></label>
+                        <input asp-for="Phone" class="form-control" placeholder="0123456789" />
+                        <span asp-validation-for="Phone" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Course" class="form-label"></label>
+                        <select asp-for="Course" class="form-select">
+                            <option value="">-- Chọn khóa học --</option>
+                            <option value="K15">K15</option>
+                            <option value="K16">K16</option>
+                            <option value="K17">K17</option>
+                            <option value="K18">K18</option>
+                            <option value="K19">K19</option>
+                            <option value="K20">K20</option>
+                            <option value="K21">K21</option>
+                            <option value="K22">K22</option>
+                            <option value="K23">K23</option>
+                            <option value="K24">K24</option>
+                        </select>
+                        <span asp-validation-for="Course" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-4">
+                        <label asp-for="WillAttend" class="form-label"></label>
+                        <div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" asp-for="WillAttend" value="true" id="willAttendYes">
+                                <label class="form-check-label" for="willAttendYes">
+                                    Có, tôi sẽ tham dự
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" asp-for="WillAttend" value="false" id="willAttendNo">
+                                <label class="form-check-label" for="willAttendNo">
+                                    Không, tôi không thể tham dự
+                                </label>
+                            </div>
+                        </div>
+                        <span asp-validation-for="WillAttend" class="text-danger"></span>
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary px-5">
+                            <i class="bi bi-send me-2"></i>Gửi đăng ký
+                        </button>
+                        <a asp-action="Index" class="btn btn-secondary px-5 ms-2">
+                            <i class="bi bi-arrow-left me-2"></i>Quay lại
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

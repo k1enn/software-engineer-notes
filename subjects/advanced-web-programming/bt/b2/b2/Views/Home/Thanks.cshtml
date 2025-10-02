@@ -1,0 +1,53 @@
+@model b2.Models.GuestResponse
+@{
+    ViewData["Title"] = "Cảm ơn bạn!";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card shadow-lg border-0">
+            <div class="card-body p-5 text-center">
+                @if (Model.WillAttend == true)
+                {
+                    <div class="success-icon mb-4">
+                        <i class="bi bi-check-circle-fill text-success" style="font-size: 5rem;"></i>
+                    </div>
+                    <h1 class="display-5 mb-4 text-success">Đăng ký thành công!</h1>
+                    <h3 class="mb-3">Cảm ơn bạn @Model.Name đã xác nhận tham dự!</h3>
+                    <p class="lead">Chúng tôi rất vui mừng được gặp bạn tại buổi họp mặt cựu sinh viên HUFLIT.</p>
+                    <div class="alert alert-info mt-4">
+                        <h5 class="alert-heading">Thông tin đăng ký của bạn:</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li><strong>Họ tên:</strong> @Model.Name</li>
+                            <li><strong>Email:</strong> @Model.Email</li>
+                            <li><strong>Số điện thoại:</strong> @Model.Phone</li>
+                            <li><strong>Khóa học:</strong> @Model.Course</li>
+                        </ul>
+                    </div>
+                    <p class="mt-4">Chúng tôi sẽ gửi thông tin chi tiết về sự kiện qua email của bạn.</p>
+                    <p>Hẹn gặp bạn vào ngày 22-9-2025!</p>
+                }
+                else
+                {
+                    <div class="info-icon mb-4">
+                        <i class="bi bi-info-circle-fill text-info" style="font-size: 5rem;"></i>
+                    </div>
+                    <h1 class="display-5 mb-4 text-info">Cảm ơn bạn đã phản hồi!</h1>
+                    <h3 class="mb-3">Chào @Model.Name!</h3>
+                    <p class="lead">Thật tiếc khi bạn không thể tham dự buổi họp mặt lần này.</p>
+                    <p>Hy vọng chúng ta sẽ có cơ hội gặp nhau trong những sự kiện tiếp theo.</p>
+                    <p>Chúc bạn luôn thành công và hạnh phúc!</p>
+                }
+
+                <div class="mt-5">
+                    <a asp-action="Index" class="btn btn-primary btn-lg me-3">
+                        <i class="bi bi-house me-2"></i>Về trang chủ
+                    </a>
+                    <a asp-action="ListResponses" class="btn btn-outline-secondary btn-lg">
+                        <i class="bi bi-people me-2"></i>Xem danh sách tham dự
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
