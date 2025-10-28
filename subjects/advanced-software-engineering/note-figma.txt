@@ -1,0 +1,11 @@
+- Phân cấp chữ chưa rõ ràng ( Hệ thống chữ, phân cấp rõ ràng nên dùng chữ ntn, bold, thin)
+- Canh lề trái phải trên dưới ko đều 
+- Chia cột ra để canh cho trang đăng nhập
+- Đặt tên rõ ràng cho các trang 
+- Canh lề cho báo lỗi các input field chỉ ở trên hoặc chỉ ở dưới 
+- Thiếu nut back trong You ll need a password cho user (giả sử user muốn undo)
+- Thiếu giao diện cho chat (message)
+- Thiếu demo cho giao diện báo lỗi ở khung input 
+- Chiều cao của khung input chữ nên nhân với chiều cao của chữ trong khoảng 2-2.5, thống nhất chiều cao này
+- Ko rõ ràng trạng thái theo dõi, ko theo dõi người dùng, thiếu nút theo dõi
+- Làm mờ popup
